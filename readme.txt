@@ -1,3 +1,3 @@
 Team EasyWin :
-
-Chamoulaud Dylan
+ - BOR Pierre
+ - CHAMOULAUD Dylan
