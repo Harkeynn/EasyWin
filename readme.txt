@@ -1,5 +1,5 @@
-Team EasyWin :
- - Pierre
- - Dylan
- - Amaïa
- - Kévin
+﻿Team EasyWin :
+ - BOR Pierre
+ - CHAMOULAUD Dylan
+ - HIRIBARNE Amaïa
+ - PUYTHORAC Kévin
