@@ -43,4 +43,4 @@ Temporary Items
 .apdisk
 
 #Ignorer modifications dans le dossier upload
-wp-content/uploads/
+wordpress/wp-content/uploads/
