@@ -1,3 +1,5 @@
 Team EasyWin :
-
-Chamoulaud Dylan
+ - Pierre
+ - Dylan
+ - Amaïa
+ - Kévin
