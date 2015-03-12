@@ -1,0 +1,157 @@
+/* 
+Theme Name: Gibson
+Description: Gibson is dark multi-purpose theme with a responsive 2 column layout.
+Author: Michael Burrows  
+Author URI: http://www.wpmultiverse.com/
+Theme URI: http://www.wpmultiverse.com/themes/gibson/
+Tags: black, white, dark, two-columns, right-sidebar, responsive-layout, custom-header, custom-menu, custom-colors, editor-style, featured-images, sticky-post, theme-options, threaded-comments   
+Version: 1.0.2
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html 
+Gibson WordPress Theme, Copyright 2014 wpmultiverse.com
+Gibson WordPress Theme is distributed under the terms of the GNU GPL
+Text Domain: gibson
+*/
+
+body {background-color:#111; font-size:16px; font-family:'Archivo Narrow',sans-serif;}
+img {max-width:100%; height:auto;}
+a {color:#000;}
+a:hover {color:#8bc34a;}
+h1, h2, h3, h4, h5, h6 {margin-top:0;}
+
+/* ----- header ----- */
+header {padding-top:45px;}
+header #header-img {position:absolute; top:0; width:100%; background-size:cover; background-repeat:no-repeat; opacity:0.2; z-index:1;}
+header .site-name {color:#fff; font-size:38px; font-weight:bold; position:relative; z-index:9999;}
+header nav {float:right; display:block; margin-top:22px; position:relative; z-index:9999;}
+header nav ul {position:relative; z-index:9999; padding:0; margin:0;}
+header nav li {display:inline-block; margin-left:20px;}
+header nav li a {display:block; color:#fff; font-size:13px; text-transform:uppercase;}
+header nav li.menu-item-has-children a {padding-bottom:10px;}
+header nav li.current-menu-item a {color:#8bc34a;}
+header nav .sub-menu {display:none; position:absolute; z-index:9999; background-color:#353535; margin-left:-16px;}
+header nav .sub-menu li {display:block; white-space:nowrap; padding:0; margin:0;}
+header nav .sub-menu li a {color:#fff; width:100%; display:block; padding:6px 16px; font-size:12px; text-transform:none;}
+header nav .sub-menu li a:hover {background-color:#8bc34a; color:#fff;}
+header #hamburger {display:none; position:absolute; top:8px; margin-right:20px; float:right; z-index:999; border:1px solid #eee; background-color:#eee; width:30px; right:0; padding:4px 4px 0 4px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;}
+header #hamburger span {height:3px; width:100%; background-color:#333; margin-bottom:4px; display:block;}
+
+/* ----- welcome message ----- */
+#welcome-message {margin-top:60px; position:relative; z-index:999; text-align:center;}
+#welcome-message h3 {color:#8bc34a; font-size:26px; margin-bottom:10px;}
+#welcome-message p {color:#c7cdc2; font-size:18px; margin-top:0;}
+
+/* ----- footer ----- */
+footer {margin-top:60px;}
+footer #footer-bottom {background-color:#191919; padding:30px;} 
+footer #footer-bottom .site-name {float:left; margin-right:45px; font-size:20px;}
+footer #footer-bottom .menu {margin:4px 0 0 0; padding:0;}
+footer #footer-bottom .menu li {float:left; margin-right:20px; list-style:none;}
+footer #footer-bottom .menu li a {font-size:12px; text-transform:uppercase;}
+footer #footer-bottom a {color:#c7cdc2;}
+footer #footer-bottom #description {float:left; clear:both; margin-bottom:0;}
+footer #footer-bottom span {float:right; font-size:12px; color:#c7cdc2; margin-top:3px;}
+
+/* ----- layout ----- */
+#content-holder {padding:0 0 0 15px; background-color:#111; margin-top:60px; position:relative; z-index:9999;}
+#content-left {padding:0 0 45px 0; background-color:#fff;}
+#sidebar {color:#c7cdc2; font-size:14px; padding:30px 50px;}
+
+/* ----- widgets ----- */
+.widget {margin-bottom:45px; font-size:14px;}
+.widget ul, .widget ol {margin:0 0 0 15px; padding:0;}
+.widget h4 {color:#fff; font-weight:bold; font-size:16px;}
+.widget a {color:#c7cdc2;}
+.widget_search input[type=text] {border:0; padding:4px; width:70%;}
+.widget_tag_cloud .tagcloud {float:left; margin-bottom:45px;}
+.widget_tag_cloud a {background-color:#353535; padding:4px 6px; font-size:13px!important; float:left; margin:0 6px 6px 0;}
+.widget_calendar table {width:100%; text-align:center;}
+
+/* ----- post teasers ----- */
+.teaser {padding-bottom:15px; border-bottom:1px solid #eee;}
+.teaser h3 {margin-top:50px; font-size:24px;}
+.teaser .teaser-meta {color:#aaa; margin-bottom:50px; font-size:13px; font-style:italic;}
+.teaser .teaser-meta a {color:#aaa;}
+.blog .sticky {background-color:#f7f7f7;}
+.pager {text-align:center; padding:20px 0; background-color:#eee; margin-bottom:-45px; opacity:0.5;}
+.pager a:hover {color:#333;}
+.pager .current {text-decoration:underline;}
+.pager .page-numbers {padding:0 4px;}
+
+/* ----- posts & pages ----- */
+.single article, .page article, .error404 article {padding:45px 0; border-bottom:1px solid #eee;}
+article #post-title {font-size:32px; margin-bottom:30px; color:#000;}
+article h1 {font-size:30px;}
+article h2 {font-size:27px;}
+article h3 {font-size:24px;}
+article h4 {font-size:21px;}
+article h5 {font-size:19px;}
+article h6 {font-size:16px;}
+article p, article ul, article ol, article table, article dl {margin-bottom:20px;}
+article ul, article ol {padding:0 0 0 16px;}
+article ul ul, article ol ol {margin-bottom:0;}
+article blockquote {font-style:italic; color:#666;}
+article blockquote cite {color:#333; font-weight:bold;}
+article table {width:100%;}
+article table td, article table th {border:2px solid #f7f7f7; padding:5px;}
+article table th {background-color:#f7f7f7;}
+article dt {font-weight:bold;}
+article dd {margin:0 0 10px 0;}
+#single-meta {background-color:#eee; padding:15px; margin-bottom:40px; opacity:0.8;}
+#single-meta p {margin:0; font-size:15px; text-transform:uppercase;}
+.aligncenter {text-align:center;}
+.alignleft {float:left; margin-right:15px;}
+.alignright {float:right; margin-left:15px;}
+.wp-caption, .wp-caption-text, .gallery-caption {max-width:100%; font-size:14px;}
+
+/* ----- comments ----- */
+#comments {padding-top:45px;}
+#comments h4 {font-size:22px;}
+#comments .comment-list {margin:0; padding:0; list-style:none; font-size:15px;}
+#comments .comment-list .bypostauthor .comment-author {border-left:2px solid #aaa; padding-left:6px;}
+#comments .comment-list li {margin-bottom:30px;}
+#comments .comment-list li span {font-weight:bold; font-size:14px;}
+#comments .comment-list li .comment-reply-link {font-size:11px; text-transform:uppercase;}
+#comments .comment-form {font-size:15px;}
+#comments .comment-form label {width:20%;}
+#comments .comment-form input[type=text] {width:80%; }
+#comments .comment-form textarea {width:79.8%; margin-left:-3px;}
+#comments .comment-form .comment-form-comment label {position:relative; top:-170px;}
+#comments .comment-form .form-submit {float:right;}
+
+/* ----- forms ----- */
+input[type=text], input[type=email], input[type=password], textarea {border:2px solid #eee; padding:8px 10px; font-size:14px; color:#333;}
+input[type=submit] {background-color:#353535; border:0; color:#c7cdc2; padding:5px 12px;}
+select {max-width:100%; color:#333;}
+.screen-reader-text, .form-allowed-tags {display:none;}
+
+/* ----- media queries ----- */
+@media (max-width:991px) {
+	header .site-name {font-size:31px;}
+	header nav {margin-top:15px;}
+	#content-left {padding:0;}	
+	#sidebar {padding:30px 15px 0 15px;}
+	footer #footer-bottom span {float:left;}
+	.teaser .post {padding:0 15px 15px 15px;}	
+	.teaser .teaser-meta {padding:0 15px;}
+	.pager {margin-bottom:0;}
+}
+@media (max-width:768px) {	
+	header nav {float:left; margin-left:-20px;}	
+	footer {margin-top:0;}
+	footer #footer-bottom span {float:left; clear:both;}
+}
+@media (max-width:480px) {	
+	header {padding-top:15px;}
+	header nav {display:none; width:100%; margin-left:0; background-color:#000;}
+	header nav li {display:block;}
+	header nav li a {padding:8px 0;}
+	header #hamburger {display:block;}
+	header .site-name {display:block; width:85%; font-size:24px;}
+	header .site-name img {max-width:85%;}
+	#welcome-message {margin-top:20px;}
+	#welcome-message h3, #welcome-message p {font-size:1em;}
+	#content-holder {margin-top:15px; padding:15px; padding-top:0;}	
+	#sidebar {padding:15px;}
+	footer #footer-bottom .menu {width:100%; clear:both;}	
+}

@@ -1,0 +1,56 @@
+/* Self Clearing Goodness */
+#catchthemes:after,
+.layout-css:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clear {
+	clear: both;
+}
+#wpwrap .catchflames-meta {
+	border-bottom: 2px solid #dfdfdf; 
+	margin-bottom: 10px; 
+	padding-bottom: 10px;
+}
+#wpwrap .catchflames-meta.select-sidebar {
+	border-bottom: none;
+}
+#wpwrap .catchflames-meta .title {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 1.33em 0 0;
+}
+
+#wpwrap .catchflames-meta .layout-css {
+	clear: both;
+	padding-left: 10px;
+}
+#wpwrap .catchflames-meta .layout-css .box-default {
+	display: block;
+	margin: 10px 10px 10px 0;
+	width: 100%;
+}
+#wpwrap .catchflames-meta .layout-css .box {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 10px 1% 10px 0;
+    text-align: center;
+    width: 15%;
+}
+#wpwrap .catchflames-meta .layout-css .box:last-child {
+	margin-right: 0;
+}
+#wpwrap .catchflames-meta .layout-css .box img {
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width:600px) {
+#wpwrap .catchflames-meta .layout-css .box {
+    margin: 10px 1% 10px 0;
+    width: 32%;
+}	
+}

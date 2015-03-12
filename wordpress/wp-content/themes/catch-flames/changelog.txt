@@ -1,0 +1,36 @@
+== Changelog ==
+
+Version 2.3.1
+* Adjusted font and padding of fixed header top menu
+* Bug Fixed: Scroll up script issue
+
+Version 2.3
+* Bug Fixed: Plugin compatibility with WooCommerce
+* Bug Fixed: Search and Social in fixed header top menu
+* Updated Dutch translation nl_NL.po and nl_NL.mo files
+* Updated waypoint and custom scripts
+
+Version 2.2
+* Added support for Polylang plugin
+* Added Dutch translation nl_NL.po and nl_NL.mo files
+* Added More theme options button in Customizer
+* Updated media uploader to new version in theme options
+
+Version 2.1
+* Added French translation fr_FR.po and fr_FR.mo files
+* Added title tag via add theme support
+* Added support for mqtranslate plugin
+* Bug Fixed: sidebar width in mobile devices
+* Bug Fixed: undefined index for featured_logo_header
+* Bug Fixed: width of Submenus
+* Updated theme description
+
+Version 2.0
+* Added Brazilian Portuguese translation pt_BR.po and pt_BR.mo files
+
+Version 1.1
+* Fixed edit action issue in page slider options
+* Fixed width overflow of button, input, select and textarea
+
+Version 1.0
+* Initial Release

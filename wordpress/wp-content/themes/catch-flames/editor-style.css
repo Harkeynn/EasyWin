@@ -1,0 +1,401 @@
+/*
+Theme Name: Catch Flames
+Description: Used to style the TinyMCE editor.
+*/
+
+html .mceContentBody {
+	max-width: 681px;
+}
+body, input, textarea {
+	color: #444;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.62em;	
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+#tinymce {	
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;		
+}
+
+
+/* =Headings
+-------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.62em
+}
+h1 {
+	color: #000;
+    font-size: 32px;
+	font-weight: bold;
+	margin: 0 0 0.8125em;
+}
+h2 {
+	color: #000;
+    font-size: 30px;
+	font-weight: bold;
+	margin: 0 0 0.8125em;
+}
+h3 {
+    font-size: 28px;
+ 	font-weight: bold;
+	margin: 0 0 0.8125em;
+}
+h4 {
+    font-size: 26px;
+	font-weight: normal;
+    margin: 0 0 0.5em;
+}
+h5 {
+    font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+}
+h6 {
+    font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 2em;
+}
+
+
+/* =Text elements
+-------------------------------------------------------------- */
+
+p {
+	margin-bottom: 2em;
+	margin-top: 0;
+}
+ul, ol {
+	margin: 0 0 2em 2.5em;
+}
+ul {
+	list-style: disc;
+}
+ol {
+	list-style-type: decimal;
+}
+ol ol {
+	list-style: upper-alpha;
+}
+ol ol ol {
+	list-style: lower-roman;
+}
+ol ol ol ol {
+	list-style: lower-alpha;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-bottom: 0;
+	padding-left: 0;
+}
+dl {
+	margin: 0 2em;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-bottom: 2em;
+	margin-left: 0;
+}
+strong {
+	font-weight: bold;
+}
+cite, em, i {
+	font-style: italic;
+}
+.mceContentBody blockquote {
+	font-family: Georgia, "Bitstream Charter", serif;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 3em;
+}
+.mceContentBody blockquote em, .mceContentBody blockquote i, .mceContentBody blockquote cite {
+	font-style: normal;
+}
+.mceContentBody blockquote cite {
+	color: #666;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+pre {
+	background: #f4f4f4;
+	font: 13px "Courier 10 Pitch", Courier, monospace;
+	line-height: 1.5;
+	margin-bottom: 2em;
+	overflow: auto;
+	padding: 0.75em 2em;
+}
+code, kbd {
+	font: 13px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+abbr, acronym, dfn {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+address {
+	display: block;
+	font-style: normal;
+	margin: 0 0 2em;
+}
+ins {
+    background: none;
+    text-decoration: none;
+}
+sup,
+sub {
+	font-size: 10px;
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+textarea {
+	background: #fafafa;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	border: 1px solid #ccc;
+	color: #888;
+	padding: 3px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	color: #373737;
+}
+textarea {
+	width: 98%;
+}
+
+
+
+/* =Links
+-------------------------------------------------------------- */
+
+a {
+	color: #1982d1;
+	text-decoration: none;
+}
+a:focus,
+a:active,
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* =Alignment
+-------------------------------------------------------------- */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 2em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 2em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* =Tables
+-------------------------------------------------------------- */
+
+table {
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 2em;
+	width: 100%;
+}
+tr th {
+	color: #666;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+td {
+	border-top: 1px solid #ccc;
+	padding: 6px 10px 6px 0;
+}
+
+
+/* =Images
+-------------------------------------------------------------- */
+
+img,
+.editor-attachment {
+	max-width: 100%; /* Fluid images for posts, comments, and widgets */
+	height: auto;
+}
+img.size-full {
+	width: auto/9; /* Prevent stretching of full-size images in IE8 */
+}
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"], 
+img.size-full,
+img.size-large,
+img.wp-post-image {
+	max-width: 97.4%;
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 2em;
+}
+p img,
+.wp-caption {
+	margin-top: 0.4em;
+}
+.wp-caption {
+	background: #eee;
+	margin-bottom: 2em;
+	max-width: 96%;
+	padding: 9px;
+}
+.wp-caption img {
+	display: block;
+	margin: 0 auto;
+	max-width: 98%;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	color: #666;
+	font-family: Georgia, serif;
+	font-size: 12px;
+}
+.wp-caption .wp-caption-text {
+	margin-bottom: 0.2em;
+	padding: 10px 0 0 40px;
+	position: relative;
+}
+.wp-caption .wp-caption-text:before {
+	color: #666;
+	content: '\2014';
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 5px;
+	position: absolute;
+	left: 10px;
+	top: 7px;
+}
+#content .gallery {
+	margin: 0 auto 2em;
+}
+#content .gallery a img {
+	border: none;
+}
+img#wpstats {
+	display: block;
+	margin: 0 auto 2em;
+}
+.gallery-columns-5 .gallery-item {
+    padding: 0 1%;
+    width: 18%;
+}
+.gallery-columns-4 .gallery-item {
+	width: 23%;
+	padding: 0 1%;
+}
+.gallery-columns-5 .gallery-item img,
+.gallery-columns-4 .gallery-item img,
+.gallery-columns-3 .gallery-item img {
+    padding: 6% !important;
+    max-width: 86%;
+}
+.gallery-columns-3 .gallery-item {
+    padding: 0 1%;
+    width: 31.33%;
+}
+.gallery-columns-1 .gallery-item img {
+	max-width: 97%
+}
+.gallery dd.gallery-caption {
+	margin-bottom: 1em;
+}
+/* Image borders */
+img[class*="align"],
+img[class*="wp-image-"],
+#content .gallery .gallery-icon img,
+img.wp-post-image,
+img.attachment-thumbnail{/* Add fancy borders to all WordPress-added images but not things like badges and icons and the like */
+	border: 1px solid #ccc;
+	padding: 6px;
+}
+.wp-caption img {
+	border-color: #eee;
+	padding: 0;
+}
+a:focus img[class*="align"],
+a:hover img[class*="align"],
+a:active img[class*="align"],
+a:focus img[class*="wp-image-"],
+a:hover img[class*="wp-image-"],
+a:active img[class*="wp-image-"],
+.gallery .gallery-icon a:focus img,
+.gallery .gallery-icon a:hover img,
+.gallery .gallery-icon a:active img,
+a:hover img.wp-post-image,
+.gallery-thumb a:hover img.attachment-thumbnail {/* Add some useful style to those fancy borders for linked images ... */
+	background: #eee;
+	border-color: #bbb;
+}
+.wp-caption a:focus img,
+.wp-caption a:active img,
+.wp-caption a:hover img {/* ... including captioned images! */
+	background: #fff;
+	border-color: #ccc;
+}
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}

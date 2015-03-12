@@ -1,0 +1,41 @@
+<wpml-config>
+    <admin-texts>
+        <key name="catchflames_options">
+            <key name="search_display_text"/>
+			<key name="featured_header_image_alt"/>
+			<key name="featured_header_image_url"/>
+			<key name="featured_image_slider_link">
+				<key name="1"/>
+				<key name="2"/>
+				<key name="3"/>					
+				<key name="4"/>
+				<key name="5"/>
+				<key name="6"/>
+				<key name="7"/>					
+				<key name="8"/>							
+			</key>
+			<key name="featured_image_slider_title">
+				<key name="1"/>
+				<key name="2"/>
+				<key name="3"/>					
+				<key name="4"/>
+				<key name="5"/>
+				<key name="6"/>
+				<key name="7"/>					
+				<key name="8"/>	
+			</key>			
+			<key name="featured_image_slider_content">
+				<key name="1"/>
+				<key name="2"/>
+				<key name="3"/>					
+				<key name="4"/>
+				<key name="5"/>
+				<key name="6"/>
+				<key name="7"/>					
+				<key name="8"/>	
+			</key>			
+			<key name="more_tag_text"/>
+			<key name="footer_code"/>
+         </key>
+    </admin-texts>
+</wpml-config>

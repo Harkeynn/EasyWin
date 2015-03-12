@@ -1,0 +1,29 @@
+@import url('http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700,700italic');
+
+img {max-width:100%; height:auto;}
+a {color:#000;}
+a:hover {color:#8bc34a;}
+h1, h2, h3, h4, h5, h6 {margin-top:0;}
+#tinymce {font-size:16px; font-family:'Archivo Narrow',sans-serif; width:650px;}
+#tinymce h1 {font-size:30px;}
+#tinymce h2 {font-size:27px;}
+#tinymce h3 {font-size:24px;}
+#tinymce h4 {font-size:21px;}
+#tinymce h5 {font-size:19px;}
+#tinymce h6 {font-size:16px;}
+#tinymce p, #tinymce ul, #tinymce ol, #tinymce table, #tinymce dl {margin-bottom:20px;}
+#tinymce ul, #tinymce ol {padding:0 0 0 16px;}
+#tinymce ul ul, #tinymce ol ol {margin-bottom:0;}
+#tinymce blockquote {font-style:italic; color:#666;}
+#tinymce blockquote cite {color:#333; font-weight:bold;}
+#tinymce table {width:100%;}
+#tinymce table td, #tinymce table th {border:2px solid #f7f7f7; padding:5px;}
+#tinymce table th {background-color:#f7f7f7;}
+#tinymce dt {font-weight:bold;}
+#tinymce dd {margin:0 0 10px 0;}
+#single-meta {background-color:#eee; padding:15px; margin-bottom:40px; opacity:0.8;}
+#single-meta p {margin:0; font-size:15px; text-transform:uppercase;}
+.aligncenter {text-align:center;}
+.alignleft {float:left; margin-right:15px;}
+.alignright {float:right; margin-left:15px;}
+.wp-caption {max-width:100%;}
