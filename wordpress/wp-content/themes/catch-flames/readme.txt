@@ -26,7 +26,7 @@ Catch Flames is distributed under the terms of the GNU General Public License v3
 Images used are released under the CC0 license
 The screenshot's visible images are as follow:
 1. http://pixabay.com/en/new-year-s-eve-sparks-stellina-114011/ - 1st slider image and screenshot image
-2. http://pixabay.com/en/sparks-fire-light-rotation-flames-265850/ - 2nd slider image
+2. http://pixabay.com/en/match-sticks-lighter-sulfur-fire-268528/ - 2nd slider image
 3. nature.jpg is self shot image by (CatchThemes.com) - Custom header image 
 
 Font Icons

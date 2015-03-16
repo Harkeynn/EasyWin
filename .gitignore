@@ -2,6 +2,12 @@
 Thumbs.db
 ehthumbs.db
 
+#Ignorer modifications dans le dossier upload
+wordpress/wp-content/languages
+wordpress/wp-content/plugins
+wordpress/wp-content/upgrade
+wordpress/wp-content/index.php
+
 # Folder config file
 Desktop.ini
 
@@ -42,5 +48,3 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#Ignorer modifications dans le dossier upload
-wordpress/wp-content/uploads/

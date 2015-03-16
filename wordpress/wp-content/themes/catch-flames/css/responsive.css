@@ -200,6 +200,7 @@
 
 /* =Screen Size Max 1344px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 1344px) {
 	.wrapper,
 	#main-slider.normal-width {
@@ -214,8 +215,7 @@
 	.three-columns #content .has-post-thumbnail.image-tall .entry-container,
 	.three-columns #content .has-post-thumbnail.image-square .entry-container {
 		width: 340px;
-	}	
-
+	}
 	.no-sidebar.full-width #content .has-post-thumbnail.image-left .entry-container,
 	.no-sidebar.full-width #content .has-post-thumbnail.image-tall .entry-container,
 	.no-sidebar.full-width #content .has-post-thumbnail.image-square .entry-container {
@@ -251,8 +251,10 @@
 	}		
 }
 
+
 /* =Screen Size Max 1280px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 1280px) {
 	.wrapper,
 	#main-slider.normal-width,
@@ -292,6 +294,7 @@
 	.three-columns #content .has-post-thumbnail.image-square .entry-container {
 		width: 320px;
 	}	
+
 	/* Three Columns Layout, Style 1
  	* Left Sidebar Smaller */
 	.three-columns .content-sidebar-wrap {
@@ -322,8 +325,10 @@
 	}	
 }
 
+
 /* =Screen Size Max 1152px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 1152px) {
 	.wrapper,
 	#main-slider.normal-width,
@@ -345,7 +350,6 @@
 	.two-columns #content .has-post-thumbnail.image-left .featured-image {
 		width: 230px;
 	}
-
 	.two-columns #content .has-post-thumbnail.image-tall .entry-container,
 	.two-columns #content .has-post-thumbnail.image-square .entry-container {
 		width: 420px;
@@ -397,8 +401,10 @@
 	}
 }
 
+
 /* =Screen Size Max 1100px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 1100px) {
 	.wrapper,
 	.two-columns .wrapper,
@@ -473,8 +479,10 @@
 	}		
 }
 
+
 /* =Screen Size Max 900px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 1000px) {		
 	.wrapper,
 	.two-columns .wrapper,
@@ -563,8 +571,10 @@
 	}	
 }
 
+
 /* =Screen Size Max 940px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 940px) {
 	.wrapper,
 	.two-columns .wrapper,
@@ -599,7 +609,7 @@
 	}		
 	#top-logo img {
 		padding: 5px 0;
-		max-height: 36px;
+		max-height: 40px;
 	}
 	#branding img {
 		max-height: 45px;
@@ -669,32 +679,38 @@
 	}
 	.has-header-top #top-logo {
 		text-align: center;
-		width: 650px;		
+		width: 640px;		
 	}
-	.has-header-left-menu #logo-wrap {
-		text-align: center;
-		width: 710px;
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 670px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 680px;
 	}
-	#header-extra #header-social-toggle, #header-extra #header-search-toggle {
-		height: 24px;
-		margin-left: 5px;
-		padding: 2px 4px;
-		width: 25px;	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 700px;		
+	}	
+	.has-header-top.no-top-menu.no-top-social.no-top-search #top-logo {
+		width: 100%;
+	}
+	#header-extra #header-social-toggle,
+	#header-extra #header-search-toggle {
+		height: 28px;
+		margin-left: 2px;
+		padding: 4px;
+		width: 28px;	
 	}
 	#header-social, #header-search {
 		top: 34px;
 	}
 	.has-header-left-menu #logo-wrap {
 		text-align: center;
-		width: 710px;
+		width: 700px;
 	}
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 680px;
+		width: 660px;
 		overflow: hidden;
-	}
-	#header-extra #header-social-toggle, 
-	#header-extra #header-search-toggle {
-		margin-left: 5px;
 	}
 	#access-top,
 	#access-header-sidebar,
@@ -706,15 +722,15 @@
 	.mobile-menu {
 		display: inline-block;
 		float: left;
-		height: 30px;
+		height: 40px;
 		padding: 0;
 		margin: 0;
-		width: 30px;
+		width: 40px;
 		overflow: hidden;
 	}
 	.mobile-menu a {
 		color: #000;
-		padding: 8px;
+		padding: 10px;
 	}
 	#mobile-header-right-menu {
 		float: right;
@@ -788,6 +804,7 @@
 
 /* =Screen Size Max 782px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 782px) {
 	.admin-bar #header-top.fixed-header {
 		margin-top: 46px;
@@ -829,13 +846,23 @@
 		padding-top: 10px;
 	}
 	.has-header-top #top-logo {
-		width: 510px;
+		width: 500px;
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 530px;		
+	}	
+	.has-header-top.no-top-menu #top-logo {
+		width: 540px;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 560px;		
+	}	
 	.has-header-left-menu #logo-wrap {
-		width: 570px;
+		width: 560px;
 	}	
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 540px;
+		width: 520px;
 	}
 	#site-logo.title-right {
 		padding-right: 0;
@@ -911,10 +938,11 @@
 
 /* =iPad Portrait
 -------------------------------------------------------------- */
+
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
-and (orientation : portrait) { 	
+and (orientation : portrait) {
 	.wrapper,
 	.two-columns .wrapper,
 	.one-column.no-sidebar .site,
@@ -954,13 +982,23 @@ and (orientation : portrait) {
 		width: 500px;
 	}		
 	.has-header-top #top-logo {
-		width: 620px;
+		width: 610px;
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 640px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 650px;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 670px;		
+	}		
 	.has-header-left-menu #logo-wrap {
-		width: 680px;
+		width: 670px;
 	}	
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 650px;
+		width: 630px;
 	}	
 	.two-columns #secondary,
 	.three-columns #secondary,
@@ -985,8 +1023,10 @@ and (orientation : portrait) {
 	}	
 }
 
+
 /* =Screen Size Max 640px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 640px) {
 	.wrapper,
 	.two-columns .wrapper,
@@ -1038,13 +1078,23 @@ and (orientation : portrait) {
 		padding: 10px 0;
 	}
 	.has-header-top #top-logo {
-		width: 410px;
+		width: 400px;
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 430px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 440px;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 460px;		
+	}		
 	.has-header-left-menu #logo-wrap {
-		width: 470px;
+		width: 460px;
 	}	
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 440px;
+		width: 420px;
 	}	
 	.two-columns #secondary,
 	.three-columns #secondary,
@@ -1149,6 +1199,7 @@ and (orientation : portrait) {
 
 /* =Screen Size Max 568px
 -------------------------------------------------------------- */
+
 @media screen and (max-width:600px) {
 	.admin-bar #header-top.fixed-header {
 		margin-top: 0;
@@ -1162,6 +1213,7 @@ and (orientation : portrait) {
 
 /* =Screen Size Max 568px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 568px) {
 	.wrapper,
 	.two-columns .wrapper,
@@ -1208,13 +1260,23 @@ and (orientation : portrait) {
 		width: 396px;
 	}	
 	.has-header-top #top-logo {
-		width: 350px;
+		width: 340px;
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 370px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 380px;
+	}
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 400px;		
+	}		
 	.has-header-left-menu #logo-wrap {
-		width: 410px;
+		width: 400px;
 	}	
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 380px;
+		width: 360px;
 	}	
 	.two-columns #secondary,
 	.three-columns #secondary,
@@ -1239,11 +1301,11 @@ and (orientation : portrait) {
 
 /* =iPhone 5 in landscape
 -------------------------------------------------------------- */
+
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
-and (orientation : landscape) { 
-/* @media screen and (max-width: 560px) { */
+and (orientation : landscape) {
 	.wrapper,
 	.two-columns .wrapper,
 	.one-column.no-sidebar .site,
@@ -1286,13 +1348,23 @@ and (orientation : landscape) {
 		width: 478px;
 	}		
 	.has-header-top #top-logo {
-		width: 450px
+		width: 440px
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 470px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 480px;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 500px;		
+	}	
 	.has-header-left-menu #logo-wrap {
-		width: 510px;
+		width: 500px;
 	}	
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 480px;
+		width: 460px;
 	}	
 	.two-columns #secondary,
 	.three-columns #secondary,
@@ -1315,8 +1387,10 @@ and (orientation : landscape) {
 	}	
 }
 
+
 /* =Screen Size Max 480px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 480px) {
 	.wrapper,
 	.two-columns .wrapper,
@@ -1350,13 +1424,23 @@ and (orientation : landscape) {
 		width: 318px;
 	}		
 	.has-header-top #top-logo {
-		width: 270px;
+		width: 260px;
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 290px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 300px;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 320px;		
+	}		
 	.has-header-left-menu #logo-wrap {
-		width: 330px;
+		width: 320px;
 	}
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 300px;
+		width: 280px;
 	}	
 	.two-columns #secondary,
 	.three-columns #secondary,
@@ -1384,6 +1468,7 @@ and (orientation : landscape) {
 
 /* =Screen Size Max 400px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 400px) {
 	.wrapper,
 	.two-columns .wrapper,
@@ -1425,19 +1510,30 @@ and (orientation : landscape) {
 		width: 298px;
 	}		
 	.has-header-top #top-logo {
-		width: 250px;	
+		width: 240px;	
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 270px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 280px;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 300px;		
+	}	
 	.has-header-left-menu #logo-wrap {
-		width: 310px;
+		width: 300px;
 	} 
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 280px;
+		width: 260px;
 	}	
 }
 
 
 /* =Screen Size Max 360px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 360px) {
 	.wrapper,
 	.two-columns .wrapper,
@@ -1469,18 +1565,29 @@ and (orientation : landscape) {
 		width: 278px;
 	}
 	.has-header-top #top-logo {
-		width: 230px;
+		width: 220px;
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 250px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 260px;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 280px;		
+	}	
 	.has-header-left-menu #logo-wrap {
-		width: 290px;
+		width: 280px;
 	} 
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		width: 260px;
+		width: 240px;
 	}		
 	#branding img {
 		max-height: 35px;
 	}
 }
+
 
 /* =Screen Size Max 320px
 -------------------------------------------------------------- */
@@ -1516,18 +1623,30 @@ and (orientation : landscape) {
 		width: 258px;
 	}
 	.has-header-top #top-logo {
-		width: 210px;
+		width: 200px;
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 230px;		
+	}		
+	.has-header-top.no-top-menu #top-logo {
+		width: 240px;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 260px;		
+	}	
 	.has-header-left-menu #logo-wrap {
-		width: 270px;
+		width: 260px;
 	} 
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
 		width: 240px;
 	}		
 }
 
+
 /* =Screen Size Max 300px
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 300px) {	
 	.wrapper,
 	.two-columns .wrapper,
@@ -1568,15 +1687,23 @@ and (orientation : landscape) {
 		padding: 10px 0;
 	}
 	.has-header-top #top-logo {
-		width: 70%;
+		width: 66%;
 	}
+	.has-header-top.no-top-social #top-logo,
+	.has-header-top.no-top-search #top-logo {
+		width: 75%;		
+	}			
+	.has-header-top.no-top-menu #top-logo {
+		width: 78%;
+	}	
+	.has-header-top.no-top-social.no-top-search #top-logo {
+		width: 86%;		
+	}			
 	.has-header-left-menu #logo-wrap {
-		width: 85%;
+		width: 86%;
 	}	
 	.has-header-left-menu.has-header-right-menu #logo-wrap {
-		clear: both;
-		display: block;
-		width: 100%;
+		width: 72%;
 	}	
 	.hentry, 
 	.no-results, 

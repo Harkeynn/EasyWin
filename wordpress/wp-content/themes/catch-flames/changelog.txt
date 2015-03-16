@@ -1,7 +1,13 @@
 == Changelog ==
 
+Version 2.3.2
+* Bug Fixed: Adjusted menu toggle issue
+* Bug Fixed: body_class for fixed header top options and css
+* Bug Fixed: Site detail class to align site logo and site details
+* Changed demo slider image for optimization
+
 Version 2.3.1
-* Adjusted font and padding of fixed header top menu
+* Bug Fixed: Adjusted font and padding of fixed header top menu
 * Bug Fixed: Scroll up script issue
 
 Version 2.3

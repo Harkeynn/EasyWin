@@ -533,10 +533,19 @@ function catchflames_body_classes( $classes ) {
 		endif;
 	endif; 
 
+
+	if ( !empty( $options['enable_header_top'] ) ) :
+		$classes[] = 'has-header-top';
+		if ( empty( $options['disable_top_menu_logo'] ) ) {
+			$classes[] = 'menu-logo';
+		}
+		if ( !has_nav_menu( 'top' ) ) {
+			$classes[] = 'no-top-menu';
+		}
+	endif;
+
 	// Check Mobile Header Menu
 	$classes[] = 'has-header-left-menu';
-
-
 
 	// Blog Page setting in Reading Settings
 	if ( $page_id == $page_for_posts ) {
