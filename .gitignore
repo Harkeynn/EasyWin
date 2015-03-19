@@ -4,7 +4,6 @@ ehthumbs.db
 
 #Ignorer modifications dans le dossier upload
 wordpress/wp-content/languages
-wordpress/wp-content/plugins
 wordpress/wp-content/upgrade
 wordpress/wp-content/index.php
 
