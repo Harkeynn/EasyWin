@@ -1,5 +1,9 @@
 == Changelog ==
 
+Version 2.4.1
+* Added Spanish translation es_ES.po and es_ES.mo
+* Bug Fixed: Header featured image enable options (Reported by Pam)
+
 Version 2.3.2
 * Bug Fixed: Adjusted menu toggle issue
 * Bug Fixed: body_class for fixed header top options and css

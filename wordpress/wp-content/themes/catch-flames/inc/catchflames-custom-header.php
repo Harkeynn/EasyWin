@@ -449,28 +449,51 @@ function catchflames_featured_overall_image() {
 
 	global $post, $wp_query, $catchflames_options_settings, $catchflames_options_defaults;
    	$options = $catchflames_options_settings;
-	$defaults = $catchflames_options_defaults; 
 	$enableheaderimage =  $options[ 'enable_featured_header_image' ];
 	
 	// Front page displays in Reading Settings
-	$page_on_front = get_option('page_on_front') ;
-	$page_for_posts = get_option('page_for_posts'); 
+	$page_for_posts = get_option('page_for_posts');
 
 	// Get Page ID outside Loop
 	$page_id = $wp_query->get_queried_object_id();
 
-	if ( $enableheaderimage == 'allpage' || ( $enableheaderimage == 'homepage' && ( is_front_page() || ( is_home() && $page_for_posts != $page_id ) ) ) ) {
+	// Check Homepage 
+	if ( $enableheaderimage == 'homepage' ) {
+		if ( is_front_page() || ( is_home() && $page_for_posts != $page_id ) ) {
+			catchflames_featured_image();
+		}
+	}
+	// Check Excluding Homepage 
+	if ( $enableheaderimage == 'excludehome' ) {
+		if ( is_front_page() || ( is_home() && $page_for_posts != $page_id ) ) {
+			return false;
+		}
+		else {
+			catchflames_featured_image();	
+		}
+	}
+	// Check Entire Site
+	elseif ( $enableheaderimage == 'allpage' ) {
 		catchflames_featured_image();
 	}
-	elseif ( $enableheaderimage == 'excludehome' && !(is_home() ) ) {
-		catchflames_featured_image();
+	// Check Entire Site (Post/Page)
+	elseif ( $enableheaderimage == 'postpage' ) {
+		if ( is_page() || is_single() ) {
+			catchflames_featured_page_post_image();
+		}
+		else {
+			catchflames_featured_image();
+		}
 	}	
-	elseif ( $enableheaderimage == 'postpage' || $enableheaderimage == 'pagespostes' ) {
-		catchflames_featured_page_post_image();
+	// Check Page/Post
+	elseif ( $enableheaderimage == 'pagespostes' ) {
+		if ( is_page() || is_single() ) {
+			catchflames_featured_page_post_image();
+		}
 	}
 	else {
 		echo '<!-- Disable Header Image -->';
-	}	
+	}
 	
 } // catchflames_featured_overall_image
 endif;

@@ -2,66 +2,64 @@
 # This file is distributed under the  GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Catch Flames\n"
+"Project-Id-Version: Catch Flames Pro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-13 20:24+0545\n"
 "PO-Revision-Date: 2015-03-13 20:24+0545\n"
-"Last-Translator: Valdir Trombini <valdirtrombini@hotmail.com>\n"
-"Language-Team: Catch Themes <info@catchinternet.com>\n"
-"Language: pt_BR\n"
+"Last-Translator: Isabel G.R. (Ladypingu) <isasi.gr@gmail.com>\n"
+"Language-Team: Isabel González Reyes <isasi.gr@gmail.com>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;esc_attr_e;esc_attr__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.7.1\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../404.php:14
 msgid "Error 404 - Page Not Found."
-msgstr "Erro 404 - Página não encontrada."
+msgstr "Error 404 - Página no encontrada."
 
 #: ../404.php:18
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
-msgstr "Parece que não podemos encontrar o que você está procurando."
+msgstr "Parece que no podemos encontrar lo que estás buscando."
 
 #: ../404.php:19
 msgid "This might be because:"
-msgstr "Isso pode ser porquê:"
+msgstr "Esto puede deberse a:"
 
 #: ../404.php:20
 msgid ""
 "You have typed the web address incorrectly, or the page you were looking for "
 "may have been moved, updated or deleted."
 msgstr ""
-"Você digitou o endereço da web de forma incorreta, ou a página que você "
-"estava procurando pode ter sido movida, atualizada ou excluída."
+"Has escrito incorrectamente la dirección web o la página que estabas "
+"buscando puede haber sido movida, borrada o actualizada."
 
 #: ../404.php:21
 msgid "Please try the following options instead:"
-msgstr "Por favor, tente alternativamente as seguintes opções:"
+msgstr "Por favor, intenta las siguientes opciones en su lugar:"
 
 #: ../404.php:22
 msgid ""
 "Check for a mis-typed URL error, then press the refresh button on your "
 "browser or Use the search box below."
 msgstr ""
-"Verifique com calma, se há um erro de digitação no URL (Endereço na Web), "
-"pressione o botão de atualizar (Recarregar a página) do seu navegador ou (F5 "
-"do teclado), ou use a caixa de pesquisa abaixo, para procurar por outro "
-"termo semelhante."
+"Comprueba si hay un error de dirección mal escrita, a continuación, pulsa el "
+"botón actualizar de tu navegador o utiliza el buscador de abajo."
 
 #: ../archive.php:22
 #, php-format
 msgid "Daily Archives: %s"
-msgstr "Arquivos diários: %s"
+msgstr "Archivos Diarios %s"
 
 #: ../archive.php:24
 #, php-format
 msgid "Monthly Archives: %s"
-msgstr "Arquivos mensais: %s"
+msgstr "Archivos por mes: %s"
 
 #: ../archive.php:24
 msgctxt "monthly archives date format"
@@ -71,7 +69,7 @@ msgstr "F Y"
 #: ../archive.php:26
 #, php-format
 msgid "Yearly Archives: %s"
-msgstr "Arquivos anuais: %s"
+msgstr "Archivos por Año: %s"
 
 #: ../archive.php:26
 msgctxt "yearly archives date format"
@@ -80,12 +78,12 @@ msgstr "Y"
 
 #: ../archive.php:28
 msgid "Blog Archives"
-msgstr "Arquivos do Blog"
+msgstr "Archivos del blog"
 
 #: ../archive.php:52 ../author.php:69 ../category.php:45 ../index.php:31
 #: ../search.php:39 ../tag.php:45 ../template-blog.php:60
 msgid "Nothing Found"
-msgstr "Infelizmente sua pesquisa não gerou um resultado válido!"
+msgstr "No se encontró nada"
 
 #: ../archive.php:56 ../author.php:73 ../category.php:49 ../index.php:35
 #: ../tag.php:49 ../template-blog.php:64
@@ -93,54 +91,53 @@ msgid ""
 "Apologies, but no results were found for the requested archive. Perhaps "
 "searching will help find a related post."
 msgstr ""
-"Desculpe-nos, mas nenhum resultado foi encontrado para o arquivo solicitado. "
-"Talvez a caixa de pesquisa, com algum outro termo semelhante, vá ajudar a "
-"encontrar um post relacionado."
+"Lo sentimos, pero no se encontraron resultados para el archivo solicitado. "
+"Puede que haciendo una búsqueda te ayude a encontrar un artículo relacionado."
 
 #: ../author.php:25
 #, php-format
 msgid "Author Archives: %s"
-msgstr "Arquivos do Autor: %s"
+msgstr "Archivo del Autor: %s"
 
 #: ../author.php:44 ../content-single.php:78
 #, php-format
 msgid "About %s"
-msgstr "Sobre %s"
+msgstr "Acerca de %s"
 
 #: ../category.php:16
 #, php-format
 msgid "Category Archives: %s"
-msgstr "Arquivos da Categoria: %s"
+msgstr "Archivos de la categoría: %s"
 
 #: ../comments.php:17
 msgid ""
 "This post is password protected. Enter the password to view any comments."
 msgstr ""
-"Este post é protegido por senha. Digite a senha para ver todo o conteúdo, e "
-"também os comentários."
+"Esta publicación está protegida por contraseña. Introduce la contraseña para "
+"ver los comentarios."
 
 #: ../comments.php:33
 #, php-format
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Um Comentário para: &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s Comentários para: &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensamiento en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensamientos en &ldquo;%2$s&rdquo;"
 
 #: ../comments.php:40 ../comments.php:60
 msgid "Comment navigation"
-msgstr "Navegação dos comentários"
+msgstr "Navegación de comentarios"
 
 #: ../comments.php:41 ../comments.php:61
 msgid "&larr; Older Comments"
-msgstr "&larr; Comentários mais antigos"
+msgstr "&larr; Comentarios más antiguos"
 
 #: ../comments.php:42 ../comments.php:62
 msgid "Newer Comments &rarr;"
-msgstr "Comentários mais recentes &rarr;"
+msgstr "Comentarios más nuevos &rarr;"
 
 #: ../comments.php:72
 msgid "Comments are closed."
-msgstr "Os comentários estão fechados."
+msgstr "Los comentarios están deshabilitados."
 
 #: ../content-aside.php:18 ../content-featured.php:14
 #: ../content-gallery.php:18 ../content-gallery.php:50 ../content-image.php:18
@@ -149,11 +146,11 @@ msgstr "Os comentários estão fechados."
 #: ../inc/catchflames-functions.php:894
 #, php-format
 msgid "Permalink to %s"
-msgstr "Link permanente para %s"
+msgstr "Enlace permanente a %s"
 
 #: ../content-aside.php:19
 msgid "Aside"
-msgstr "de lado"
+msgstr "Aparte"
 
 #: ../content-aside.php:24 ../content-aside.php:50 ../content-gallery.php:95
 #: ../content-image.php:72 ../content-link.php:24 ../content-link.php:50
@@ -161,7 +158,7 @@ msgstr "de lado"
 #: ../content-status.php:23 ../content-status.php:51 ../content.php:44
 #: ../content.php:110
 msgid "Leave a reply"
-msgstr "Deixe um Comentário!"
+msgstr "Deja una respuesta"
 
 #: ../content-aside.php:24 ../content-aside.php:50 ../content-gallery.php:95
 #: ../content-image.php:72 ../content-link.php:24 ../content-link.php:50
@@ -169,7 +166,7 @@ msgstr "Deixe um Comentário!"
 #: ../content-status.php:23 ../content-status.php:51 ../content.php:44
 #: ../content.php:110
 msgid "1 Comment &darr;"
-msgstr "1 Comentário &darr;"
+msgstr "1 comentario &darr;"
 
 #: ../content-aside.php:24 ../content-aside.php:50 ../content-gallery.php:95
 #: ../content-image.php:72 ../content-link.php:24 ../content-link.php:50
@@ -177,12 +174,12 @@ msgstr "1 Comentário &darr;"
 #: ../content-status.php:23 ../content-status.php:51 ../content.php:44
 #: ../content.php:110
 msgid "% Comments &darr;"
-msgstr "% Comentários &darr;"
+msgstr "% Comentarios &darr;"
 
 #: ../content-aside.php:35 ../content-gallery.php:34 ../content-link.php:35
 #: ../content-quote.php:38 ../content-status.php:36
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Continue lendo... <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Seguir leyendo <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../content-aside.php:37 ../content-featured.php:24
 #: ../content-gallery.php:57 ../content-image.php:31 ../content-link.php:37
@@ -206,7 +203,7 @@ msgstr "Editar"
 #: ../content-single.php:44 ../content-single.php:47 ../content.php:84
 #: ../content.php:94
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #: ../content-featured.php:37
 #, php-format
@@ -214,9 +211,8 @@ msgid ""
 "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
 "title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
-"Este post foi publicado em: %1$s Listada nas Tags: %2$s. Arquivado em: <a "
-"href=\"%3$s\" title=\"Link permanente para: %4$s\" rel=\"bookmark\">Link "
-"permanente</a>."
+"Este artículo fue publicado en %1$s y etiquetado %2$s. <a href =\"%3$s\" "
+"title=\"Enlace permanente a %4$s\" rel=\"bookmark\">Enlace permanente</a>."
 
 #: ../content-featured.php:39
 #, php-format
@@ -224,35 +220,35 @@ msgid ""
 "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
 "\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
-"Este post foi publicado em: %1$s. Arquivado em: <a href=\"%3$s\" title="
-"\"Link permanente para: %4$s\" rel=\"bookmark\">Link permanente</a>."
+"Este artículo fue publicado en %1$s. <a href=\"%3$s\" title=\"Enlace "
+"permanente a %4$s\" rel=\"bookmark\">Enlace permanente</a>."
 
 #: ../content-gallery.php:19
 msgid "Gallery"
-msgstr "Galeria"
+msgstr "Galería"
 
 #: ../content-gallery.php:49
 #, php-format
 msgid "This gallery contains <a %1$s>%2$s photo</a>."
 msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
-msgstr[0] "Esta galeria contém <a %1$s>%2$s fotografia</a>."
-msgstr[1] "Esta galeria contém <a %1$s>%2$s fotografias</a>."
+msgstr[0] "Esta galería contiene <a %1$s>%2$s foto </a>"
+msgstr[1] "Esta galería contiene <a %1$s>%2$s fotos </a>"
 
 #: ../content-gallery.php:74 ../content-image.php:59 ../content-quote.php:57
 #: ../content.php:88
 #, php-format
 msgid "<span class=\"%1$s\">Posted in</span> %2$s"
-msgstr "<span class=\"%1$s\">Postado em:</span> %2$s"
+msgstr "<span class=\"%1$s\">Publicado en</ span> %2$s"
 
 #: ../content-gallery.php:86 ../content-image.php:67 ../content-quote.php:69
 #: ../content.php:100
 #, php-format
 msgid "<span class=\"%1$s\">Tagged</span> %2$s"
-msgstr "<span class=\"%1$s\">Listada nas Tags:</span> %2$s"
+msgstr "<span class=\"%1$s\">Etiquetada</span> %2$s"
 
 #: ../content-image.php:19
 msgid "Image"
-msgstr "Imagem"
+msgstr "Imágen"
 
 #: ../content-image.php:29 ../content.php:67
 #, php-format
@@ -268,22 +264,22 @@ msgid ""
 "\" rel=\"author\">%6$s</a></span></span>"
 msgstr ""
 "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s"
-"\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> por: </"
+"\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> por </"
 "span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title="
 "\"%5$s\" rel=\"author\">%6$s</a></span></span>"
 
 #: ../content-image.php:47 ../inc/catchflames-functions.php:492
 #, php-format
 msgid "View all posts by %s"
-msgstr "Ver todas as postagens de %s"
+msgstr "Ver todos los mensajes de %s"
 
 #: ../content-link.php:19
 msgid "Link"
-msgstr "Link"
+msgstr "Enlace"
 
 #: ../content-quote.php:17
 msgid "Quote"
-msgstr "Citar"
+msgstr "Cita"
 
 #: ../content-single.php:49
 #, php-format
@@ -292,9 +288,9 @@ msgid ""
 "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
 "\">permalink</a>."
 msgstr ""
-"Este post foi publicado em: %1$s Listada nas Tags: %2$s por: <a href=\"%6$s"
-"\">%5$s</a>. Arquivado em: <a href=\"%3$s\" title=\"Link permanente para: "
-"%4$s\" rel=\"bookmark\">Link permanente</a>."
+"Este artículo fue publicado en %1$s y etiquetado %2$s por <a href=\"%6$s\">"
+"%5$s</a>. <a href=\"%3$s\" title=\"Enlace permanente a %4$s\" rel=\"bookmark"
+"\">Enlace permanente</a>."
 
 #: ../content-single.php:51
 #, php-format
@@ -302,9 +298,9 @@ msgid ""
 "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a "
 "href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
-"Este post foi publicado em: %1$s por: <a href=\"%6$s\">%5$s</a>. Arquivado "
-"em: <a href=\"%3$s\" title=\"Link permanente para: %4$s\" rel=\"bookmark"
-"\">Link permanente</a>."
+"Este artículo fue publicado en %1$s por <a href=\"%6$s\">%5$s</a>. <a href="
+"\"%3$s\" title=\"Enlace permanente a %4$s\" rel=\"bookmark\">Enlace "
+"permanente</a>."
 
 #: ../content-single.php:53
 #, php-format
@@ -312,42 +308,41 @@ msgid ""
 "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href="
 "\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
-"Este post foi publicado por: <a href=\"%6$s\">%5$s</a>. Arquivado em: <a "
-"href=\"%3$s\" title=\"Link permanente para: %4$s\" rel=\"bookmark\">Link "
-"permanente</a>."
+"Este artículo fue publicado por <a href=\"%6$s\">%5$s</a>. <a href=\"%3$s\" "
+"title=\"Enlace permanente a %4$s\" rel=\"fbookmark\">Enlace permanente</a>."
 
 #: ../content-single.php:82
 #, php-format
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Ver todas as postagens de %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Ver todos los mensajes de %s <span class=\"meta-nav\">&rarr;</ span>"
 
 #: ../content-status.php:18
 msgid "Status"
-msgstr "Status"
+msgstr "Estado"
 
 #: ../content.php:32
 msgid "Featured"
-msgstr "Destaque"
+msgstr "Destacado"
 
 #: ../functions.php:190 ../inc/panel/theme-options.php:264
 msgid "Fixed Header Top Menu"
-msgstr "Menu de cabeçalho fixado no topo"
+msgstr "Menú superior del encabezado fijo"
 
 #: ../functions.php:191
 msgid "Primary Menu"
-msgstr "Menu principal"
+msgstr "Menú Principal"
 
 #: ../image.php:18
 msgid "Image navigation"
-msgstr "Navegação das imagens"
+msgstr "Navegación de imágenes"
 
 #: ../image.php:19
 msgid "&larr; Previous"
-msgstr "&larr;  Anterior"
+msgstr "&larr; Anterior"
 
 #: ../image.php:20
 msgid "Next &rarr;"
-msgstr "Próximo &rarr;"
+msgstr "Siguiente &rarr;"
 
 #: ../image.php:30
 #, php-format
@@ -357,11 +352,11 @@ msgid ""
 "at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> "
 "in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr ""
-"<span class=\"meta-prep meta-prep-entry-date\">Publicado no dia: </span> "
-"<span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</"
-"abbr></span> - tamanho: <a href=\"%3$s\" title=\"Link para a imagem no "
-"tamanho original\">%4$s &times; %5$s</a> - em: <a href=\"%6$s\" title="
-"\"Voltar para: %7$s\" rel=\"gallery\">%8$s</a>"
+"<span class=\"meta-prep meta-prep-entry-date\">Publicado</span> <span class="
+"\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> "
+"el <a href=\"%3$s\" title=\"Enlace a la imagen a tamaño completo\">%4$s "
+"&times %5$s</ a> en <a href=\"%6$s\" title=\"Volver a %7$s\" rel=\"gallery\">"
+"%8$s</ a>"
 
 #: ../inc/catchflames-functions.php:120
 #, php-format
@@ -370,15 +365,15 @@ msgstr "Página %s"
 
 #: ../inc/catchflames-functions.php:334 ../single.php:18
 msgid "Post navigation"
-msgstr "Navegação das postagens"
+msgstr "Navegación por los artículos"
 
 #: ../inc/catchflames-functions.php:342
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Postagens mais antigas"
+msgstr "<span class=\"meta-nav\">&larr;</span> Artículos antiguos"
 
 #: ../inc/catchflames-functions.php:343
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Postagens mais recentes <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Artículos nuevos <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../inc/catchflames-functions.php:422
 msgid "Pingback:"
@@ -390,19 +385,17 @@ msgstr "(Editar)"
 
 #: ../inc/catchflames-functions.php:437
 msgid "Post author"
-msgstr "Resposta do autor"
+msgstr "Autor del Post"
 
 #. translators: 1: date, 2: time
 #: ../inc/catchflames-functions.php:443
 #, php-format
 msgid "%1$s at %2$s"
-msgstr "%1$s às %2$s"
+msgstr "%1$s en %2$s"
 
 #: ../inc/catchflames-functions.php:449
 msgid "Your comment is awaiting moderation."
-msgstr ""
-"<strong>Seu comentário está aguardando moderação; obrigado por comentar!</"
-"strong>"
+msgstr "Tu comentario esta en espera de moderación."
 
 #: ../inc/catchflames-functions.php:458
 msgid "Reply"
@@ -417,15 +410,15 @@ msgid ""
 "<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
 "\" rel=\"author\">%7$s</a></span></span>"
 msgstr ""
-"<span class=\"sep\">Postado em: </span><a href=\"%1$s\" title=\"%2$s\" rel="
-"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</"
-"time></a><span class=\"by-author\"> <span class=\"sep\"> por: </span> <span "
-"class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" "
-"rel=\"author\">%7$s</a></span></span>"
+"<span class=\"sep\">Publicado el </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date updated\" datetime=\"%3$s\" pubdate>"
+"%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> por </span> "
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
+"\" rel=\"author\">%7$s</a></span></span>"
 
 #: ../inc/catchflames-functions.php:596
 msgid "ID"
-msgstr "ID"
+msgstr "ID "
 
 #: ../inc/catchflames-functions.php:742 ../inc/panel/theme-options.php:115
 #: ../inc/panel/theme-options.php:842
@@ -440,11 +433,11 @@ msgstr "Twitter"
 #: ../inc/catchflames-functions.php:752 ../inc/panel/theme-options.php:117
 #: ../inc/panel/theme-options.php:858
 msgid "Google+"
-msgstr "Google +"
+msgstr "Google+"
 
 #: ../inc/catchflames-functions.php:757 ../inc/panel/theme-options.php:890
 msgid "Linkedin"
-msgstr "Linkedin"
+msgstr "LinkedIn"
 
 #: ../inc/catchflames-functions.php:762 ../inc/panel/theme-options.php:866
 msgid "Pinterest"
@@ -452,7 +445,7 @@ msgstr "Pinterest"
 
 #: ../inc/catchflames-functions.php:767
 msgid "YouTube"
-msgstr "Youtube"
+msgstr "YouTube"
 
 #: ../inc/catchflames-functions.php:772 ../inc/panel/theme-options.php:882
 msgid "Vimeo"
@@ -464,7 +457,7 @@ msgstr "AIM"
 
 #: ../inc/catchflames-functions.php:782 ../inc/panel/theme-options.php:906
 msgid "MySpace"
-msgstr "MySpace"
+msgstr "Myspace"
 
 #: ../inc/catchflames-functions.php:787 ../inc/panel/theme-options.php:915
 msgid "Flickr"
@@ -476,7 +469,7 @@ msgstr "Tumblr"
 
 #: ../inc/catchflames-functions.php:797 ../inc/panel/theme-options.php:931
 msgid "deviantART"
-msgstr "DeviantART"
+msgstr "deviantART"
 
 #: ../inc/catchflames-functions.php:802 ../inc/panel/theme-options.php:939
 msgid "Dribbble"
@@ -508,11 +501,11 @@ msgstr "Soundcloud"
 
 #: ../inc/catchflames-functions.php:837 ../inc/panel/theme-options.php:996
 msgid "Email"
-msgstr "Email"
+msgstr "Correo electrónico"
 
 #: ../inc/catchflames-functions.php:842 ../inc/panel/theme-options.php:1004
 msgid "Contact"
-msgstr "Contato"
+msgstr "Contactar"
 
 #: ../inc/catchflames-functions.php:847 ../inc/panel/theme-options.php:1012
 msgid "Xing"
@@ -520,12 +513,12 @@ msgstr "Xing"
 
 #: ../inc/catchflames-functions.php:852
 msgid "SpecificFeeds"
-msgstr "Feeds específicos"
+msgstr "SpecificFeeds"
 
 #: ../inc/catchflames-menus.php:46 ../inc/catchflames-menus.php:162
 #: ../inc/catchflames-menus.php:168
 msgid "Menu"
-msgstr "Menu"
+msgstr "Menú"
 
 #: ../inc/catchflames-menus.php:55
 msgid "Connect"
@@ -535,48 +528,50 @@ msgstr "Conectar"
 #: ../inc/panel/catchflames-themeoptions-defaults.php:76 ../searchform.php:17
 #: ../searchform.php:19
 msgid "Search"
-msgstr "Pesquisar"
+msgstr "Buscar"
 
 #: ../inc/catchflames-menus.php:111
 msgid "Primary menu"
-msgstr "Menu Principal"
+msgstr "Menú Principal"
 
 #: ../inc/catchflames-menus.php:113
 msgid "Skip to primary content"
-msgstr "Ir para o conteúdo principal"
+msgstr "Saltar al contenido principal"
 
 #: ../inc/catchflames-menus.php:114
 msgid "Skip to secondary content"
-msgstr "Ir para o conteúdo secundário"
+msgstr "Saltar al contenido secundario"
 
 #: ../inc/catchflames-metabox.php:14 ../inc/catchflames-metabox.php:20
 msgid "Catch Flames Options"
-msgstr "Opções do Catch Flames"
+msgstr "Opciones de Catch Flames"
 
 #: ../inc/catchflames-metabox.php:34
 #, php-format
 msgid "Default Layout Set in <a href=\"%s\">Theme Settings</a>"
-msgstr "Layout padrão definido nas <a href=\"%s\">Configurações do Tema</a>"
+msgstr ""
+"Disposición predeterminada establecida en <a href=\"%s\">Opciones del tema</"
+"a>"
 
 #: ../inc/catchflames-metabox.php:40
 msgid "Three Columns (Style 1)"
-msgstr "Três colunas (Estilo 1)"
+msgstr "Tres columnas (estilo 1)"
 
 #: ../inc/catchflames-metabox.php:46
 msgid "Right sidebar"
-msgstr "Barra lateral direita"
+msgstr "Barra Lateral Derecha"
 
 #: ../inc/catchflames-metabox.php:52
 msgid "Left sidebar"
-msgstr "Barra lateral esquerda"
+msgstr "Barra Lateral Izquierda"
 
 #: ../inc/catchflames-metabox.php:58
 msgid "No sidebar"
-msgstr "Sem barra lateral"
+msgstr "Sin barra lateral"
 
 #: ../inc/catchflames-metabox.php:75
 msgid "Sidebar Layout Options"
-msgstr "Opções da disposição da barra lateral"
+msgstr "Opciones de formato de la barra lateral"
 
 #: ../inc/catchflames-slider.php:171
 msgid ""
@@ -584,71 +579,70 @@ msgid ""
 "\"Appearance => Theme Options => Featured Slider => Featured Page Slider "
 "Options\""
 msgstr ""
-"Você selecionou exibir Slider na página, mas você não adicionou o ID da "
-"página em: \"Aparência => Opções do Tema => Slider em destaque => Opções de "
-"Slider em destaque na página\""
+"Has seleccionado Page Slider pero no has agregado el ID de la página de "
+"\"Aspecto => tema => destacados Slider => Featured Page Slider opciones\""
 
 #: ../inc/catchflames-widgets.php:10
 msgid "Primary Sidebar"
-msgstr "Barra lateral principal"
+msgstr "Sidebar principal"
 
 #: ../inc/catchflames-widgets.php:12
 msgid ""
 "This is the primary sidebar if you are using a two or three column site "
 "layout option."
 msgstr ""
-"Esta é a barra lateral principal se você estiver usando uma opção de layout "
-"para o site de duas ou três colunas."
+"Esta es la barra lateral primaria si está usando una opción de diseño de "
+"sitio columna dos o tres."
 
 #: ../inc/catchflames-widgets.php:21
 msgid "Secondary Sidebar"
-msgstr "barra lateral secundária"
+msgstr "Barra Lateral Secundaria"
 
 #: ../inc/catchflames-widgets.php:23
 msgid ""
 "This is the secondary sidebar if you are using a three column site layout "
 "option."
 msgstr ""
-"Esta é a barra lateral secundária, se você estiver usando uma opção de "
-"layout para o site de três colunas."
+"Esto es la barra lateral secundaria si está usando una opción de diseño de "
+"sitio tres columnas."
 
 #: ../inc/catchflames-widgets.php:33
 msgid "WooCommerce Sidebar"
-msgstr "Barra lateral para o WooCommerce"
+msgstr "WooCommerce Sidebar"
 
 #: ../inc/catchflames-widgets.php:44
 msgid "Footer Area One"
-msgstr "Área do Rodapé - Um"
+msgstr "Área uno del pie de página"
 
 #: ../inc/catchflames-widgets.php:46 ../inc/catchflames-widgets.php:57
 #: ../inc/catchflames-widgets.php:68
 msgid "An optional widget area for your site footer"
-msgstr "Uma área Widget opcional para o rodapé do site"
+msgstr "Un área opcional de widgets en el pie de página"
 
 #: ../inc/catchflames-widgets.php:55
 msgid "Footer Area Two"
-msgstr "Área do Rodapé - Dois"
+msgstr "Área dos del pie de página"
 
 #: ../inc/catchflames-widgets.php:66
 msgid "Footer Area Three"
-msgstr "Área do Rodapé - Três"
+msgstr "Área tres del pie de página"
 
 #: ../inc/panel/catchflames-themeoptions-defaults.php:124
 msgid "Continue Reading"
-msgstr "Continue lendo..."
+msgstr "Continuar Leyendo"
 
 #: ../inc/panel/theme-options.php:53 ../inc/panel/theme-options.php:54
 #: ../inc/panel/theme-options.php:127
 msgid "Theme Options"
-msgstr "Opções do Tema"
+msgstr "Opciones del tema"
 
 #: ../inc/panel/theme-options.php:98
 msgid "Options Saved"
-msgstr "Opções e suas configurações foram salvas"
+msgstr "Opciones guardadas"
 
 #: ../inc/panel/theme-options.php:103
 msgid "Theme Options By"
-msgstr "Opções do Tema por:"
+msgstr "Opciones del tema por"
 
 #: ../inc/panel/theme-options.php:105
 msgid "http://catchthemes.com/"
@@ -665,7 +659,7 @@ msgstr "http://catchthemes.com/support-forum/forum/catch-flames-pro-premium/"
 
 #: ../inc/panel/theme-options.php:113
 msgid "Support Forum"
-msgstr "Fórum de suporte"
+msgstr "Foro de soporte"
 
 #: ../inc/panel/theme-options.php:114
 msgid "http://catchthemes.com/theme-instructions/catch-flames-pro/"
@@ -673,7 +667,7 @@ msgstr "http://catchthemes.com/theme-instructions/catch-flames-pro/"
 
 #: ../inc/panel/theme-options.php:114
 msgid "Theme Instruction"
-msgstr "Instruções do tema"
+msgstr "Instrucciones del tema"
 
 #: ../inc/panel/theme-options.php:115
 msgid "https://www.facebook.com/catchthemes/"
@@ -681,7 +675,7 @@ msgstr "https://www.facebook.com/catchthemes/"
 
 #: ../inc/panel/theme-options.php:115
 msgid "Like Catch Themes on Facebook"
-msgstr "Dê um Curtir no Facebook para o Catch Themes"
+msgstr "Di que te gusta Catch Themes en Facebook"
 
 #: ../inc/panel/theme-options.php:116
 msgid "https://twitter.com/catchthemes/"
@@ -689,7 +683,7 @@ msgstr "https://twitter.com/catchthemes/"
 
 #: ../inc/panel/theme-options.php:116
 msgid "Follow Catch Themes on Twitter"
-msgstr "Siga o Catch Themes no Twitter"
+msgstr "Sigue a Catch Themes en Twitter"
 
 #: ../inc/panel/theme-options.php:117
 msgid "https://plus.google.com/+Catchthemes"
@@ -697,7 +691,7 @@ msgstr "https://plus.google.com/+Catchthemes"
 
 #: ../inc/panel/theme-options.php:117
 msgid "Follow Catch Themes on Google+"
-msgstr "Siga o Catch Themes no Google+"
+msgstr "Sigue a Catch Themes en Google+"
 
 #: ../inc/panel/theme-options.php:118
 msgid "http://wordpress.org/support/view/theme-reviews/catch-flames/"
@@ -705,23 +699,23 @@ msgstr "http://wordpress.org/support/view/theme-reviews/catch-flames/"
 
 #: ../inc/panel/theme-options.php:118
 msgid "Rate us 5 Star on WordPress"
-msgstr "Classifique-nos com 5 Estrelas no WordPress, obrigado!"
+msgstr "Danos 5 estrellas en WordPress"
 
 #: ../inc/panel/theme-options.php:118
 msgid "5 Star Rating"
-msgstr "Classifique-nos com 5 Estrelas!"
+msgstr "5 Estrellas"
 
 #: ../inc/panel/theme-options.php:128
 msgid "Color Options"
-msgstr "Opções de cores"
+msgstr "Opciones de color"
 
 #: ../inc/panel/theme-options.php:129
 msgid "Featured Slider"
-msgstr "Slider em destaque"
+msgstr "Presentación de destacados"
 
 #: ../inc/panel/theme-options.php:130
 msgid "Social Links"
-msgstr "Redes Sociais "
+msgstr "Enlaces Sociales"
 
 #: ../inc/panel/theme-options.php:136
 msgid "Favicon"
@@ -729,30 +723,30 @@ msgstr "Favicon"
 
 #: ../inc/panel/theme-options.php:140
 msgid "Disable Favicon?"
-msgstr "Você quer <strong>desativar</strong> o Favicon?"
+msgstr "¿Desactivar 'favicon'?"
 
 #: ../inc/panel/theme-options.php:144 ../inc/panel/theme-options.php:189
 #: ../inc/panel/theme-options.php:246 ../inc/panel/theme-options.php:293
 #: ../inc/panel/theme-options.php:460 ../inc/panel/theme-options.php:646
 msgid "Check to disable"
-msgstr "Marque aqui para desativar"
+msgstr "Marca para desactivar"
 
 #: ../inc/panel/theme-options.php:149
 msgid "Fav Icon URL:"
-msgstr "URL do seu ícone Favicon:"
+msgstr "URL del 'favicon':"
 
 #: ../inc/panel/theme-options.php:157
 msgid "Insert as Favicon"
-msgstr "Insert as Favicon"
+msgstr "Insertar como Favicon"
 
 #: ../inc/panel/theme-options.php:157
 msgid "Change Favicon"
-msgstr "Change Favicon"
+msgstr "Cambiar Favicon"
 
 #: ../inc/panel/theme-options.php:162 ../inc/panel/theme-options.php:207
 #: ../inc/panel/theme-options.php:383
 msgid "Preview"
-msgstr "Pré-visualização"
+msgstr "Vista previa"
 
 #: ../inc/panel/theme-options.php:175 ../inc/panel/theme-options.php:223
 #: ../inc/panel/theme-options.php:271 ../inc/panel/theme-options.php:323
@@ -763,27 +757,27 @@ msgstr "Pré-visualização"
 #: ../inc/panel/theme-options.php:677 ../inc/panel/theme-options.php:777
 #: ../inc/panel/theme-options.php:813 ../inc/panel/theme-options.php:1028
 msgid "Save Changes"
-msgstr "Salvar Alterações"
+msgstr "Guardar cambios"
 
 #: ../inc/panel/theme-options.php:181
 msgid "Web Clip Icon Options"
-msgstr "Opções de web clipe ícone"
+msgstr "Opciones del icono de aplicación web"
 
 #: ../inc/panel/theme-options.php:185
 msgid "Disable Web Clip Icon?"
-msgstr "<strong>Desativar</strong> web clipe ícone?"
+msgstr "¿Desactivar icono de aplicación web?"
 
 #: ../inc/panel/theme-options.php:194
 msgid "Web Clip Icon URL:"
-msgstr "URL na Web do seu ícone "
+msgstr "URL del icono de aplicación web:"
 
 #: ../inc/panel/theme-options.php:202
 msgid "Insert as Web Clip Icon"
-msgstr "Insert as Web Clip Icon"
+msgstr "¿Desactivar icono de aplicación web?"
 
 #: ../inc/panel/theme-options.php:202
 msgid "Change Web Clip Icon"
-msgstr "Adicionar/Mudar na Web o seu ícone Favicon:"
+msgstr "Cambiar icono de aplicación web"
 
 #: ../inc/panel/theme-options.php:220
 msgid ""
@@ -791,160 +785,158 @@ msgid ""
 "Height 144px height, which will support High Resolution Devices like iPad "
 "Retina."
 msgstr ""
-"Nota: Web Clip Ícone para dispositivos da Apple. Tamanho recomendado - "
-"largura 144px e altura 144px, que irá suportar dispositivos de alta "
-"resolução, como iPad de Retina."
+"Nota: Icono de aplicación web para los dispositivos de Apple. Tamaño "
+"recomendado - 144px de ancho y 144px de alto, para dar soporte a "
+"dispositivos de alta resolución como el iPad Retina"
 
 #: ../inc/panel/theme-options.php:229
 msgid "Fixed Header Top Options"
-msgstr "Opções para fixação no cabeçalho superior (Topo)"
+msgstr "Menú superior del encabezado fijo"
 
 #: ../inc/panel/theme-options.php:233
 msgid "Enable Fixed Header Top?"
-msgstr "Você quer ativar e fixar o cabeçalho no topo?"
+msgstr "Menú superior del encabezado fijo"
 
 #: ../inc/panel/theme-options.php:237 ../inc/panel/theme-options.php:837
 #: ../inc/panel/theme-options.php:1024
 msgid "Check to enable"
-msgstr "Marque aqui para ativar"
+msgstr "Check to enable"
 
 #: ../inc/panel/theme-options.php:242
 msgid "Disable Logo in Fixed Header Top?"
-msgstr "Você quer desativar o logotipo fixado no cabeçalho do topo?"
+msgstr "Menú superior del encabezado fijo"
 
 #: ../inc/panel/theme-options.php:251
 msgid "Logo in Fixed Header Top:"
-msgstr "Fixar o Logotipo no cabeçalho do topo:"
+msgstr "Margen Superior del Logo de Cabecera"
 
 #: ../inc/panel/theme-options.php:259
 msgid "Insert as Header Logo"
-msgstr "Insert as Header Logo"
+msgstr "Insertar como Logo de cabecera"
 
 #: ../inc/panel/theme-options.php:259
 msgid "Change Header Logo"
-msgstr "Alterar o logotipo do cabeçalho"
+msgstr "Cambio del logo del encabezado"
 
 #: ../inc/panel/theme-options.php:267
 msgid ""
 "You need to create custom menu and then assign menu location as Featured "
 "Header Top Menu. For more go to Menu Option Below"
 msgstr ""
-"Você precisa criar um menu personalizado e, em seguida, atribuir a "
-"localização desse menu como destaque do menu no cabeçalho superior (Topo). "
-"Para mais, vá até a opção de menu abaixo."
+"Necesitar crear un menú personalizado y luego asignarlo a la ubicación del "
+"menú que aparece como encabezado en la parte superior. Para más ir a la "
+"opción del menú de abajo."
 
 #: ../inc/panel/theme-options.php:277
 msgid "Header Options"
-msgstr "Opções de cabeçalho"
+msgstr "Opciones de encabezado"
 
 #: ../inc/panel/theme-options.php:281
 msgid "Custom Header Image"
-msgstr "Imagem personalizada do cabeçalho"
+msgstr "Imagen personalizada de cabecera"
 
 #: ../inc/panel/theme-options.php:284
 msgid "Custom Header Image can be managed from Header Featured Image Options"
 msgstr ""
-"Imagem personalizada do cabeçalho pode ser gerenciada a partir de: <b>Opções "
-"da imagem em destaque no cabeçalho (Header)</b>, logo abaixo."
+"La imagen de cabecera personalizada puede gestionarse desde opciones de "
+"imagen destacada del encabezado"
 
 #: ../inc/panel/theme-options.php:289
 msgid "Disable Header Logo?"
-msgstr "Você quer desativar o logotipo fixado no cabeçalho do topo?"
+msgstr "¿Desactivar el logotipo de la cabecera?"
 
 #: ../inc/panel/theme-options.php:298
 msgid "Logo url:"
-msgstr "URL do logotipo"
+msgstr "URL del logo:"
 
 #: ../inc/panel/theme-options.php:306
 msgid "Insert as Logo"
-msgstr "Insert as Logo"
+msgstr "Insertar como Logo"
 
 #: ../inc/panel/theme-options.php:306
 msgid "Change Logo"
-msgstr "Change Logo"
+msgstr "Cambiar Logo"
 
 #: ../inc/panel/theme-options.php:311
 msgid "Preview:"
-msgstr "Pré-visualização:"
+msgstr "Vista previa:"
 
 #: ../inc/panel/theme-options.php:329
 msgid "Header Featured Image Options"
-msgstr "Opções da imagem em destaque no Cabeçalho (Header)"
+msgstr "Opciones de imagen del encabezado "
 
 #: ../inc/panel/theme-options.php:333
 msgid "Enable Featured Header Image"
-msgstr "Ativar a imagem em destaque no cabeçalho (Header)"
+msgstr "Habilitar la imagen del encabezado destacada"
 
 #: ../inc/panel/theme-options.php:338
 msgid "Excluding Homepage"
-msgstr "Excluindo a página inicial"
+msgstr "Excluyendo la página de inicio"
 
 #: ../inc/panel/theme-options.php:343
 msgid "Homepage"
-msgstr "Página Inicial (Homepage)"
+msgstr "Página de inicio"
 
 #: ../inc/panel/theme-options.php:348 ../inc/panel/theme-options.php:717
 msgid "Entire Site"
-msgstr "Todo o Website"
+msgstr "Todo el sitio"
 
 #: ../inc/panel/theme-options.php:353
 msgid "Entire Site, Page/Post Featured Image"
-msgstr "Imagem em destaque em página/post em todo o Website"
+msgstr "Todo el sitio, página/Imagen destacada del post"
 
 #: ../inc/panel/theme-options.php:358
 msgid "Pages & Posts"
-msgstr "Páginas & Postagens"
+msgstr "Páginas y Posts"
 
 #: ../inc/panel/theme-options.php:363 ../inc/panel/theme-options.php:722
 msgid "Disable"
-msgstr "Desativar"
+msgstr "Inhabilitar"
 
 #: ../inc/panel/theme-options.php:369
 msgid "Header Image:"
-msgstr "imagem de cabeçalho:"
+msgstr "Imagen de encabezado:"
 
 #: ../inc/panel/theme-options.php:375 ../inc/panel/theme-options.php:377
 msgid "Click here to change header image"
-msgstr "Clique aqui para alterar imagem do cabeçalho"
+msgstr "Haga clic aquí para cambiar la imagen del encabezado"
 
 #: ../inc/panel/theme-options.php:375
 msgid "Click here to change Header Image"
-msgstr "Clique aqui para alterar a imagem do cabeçalho"
+msgstr "Haga clic aquí para cambiar la imagen del encabezado"
 
 #: ../inc/panel/theme-options.php:377
 msgid "Click here to add Header Image"
-msgstr "Clique aqui para adicionar imagem do cabeçalho"
+msgstr "Haga clic aquí para agregar una Imagen de encabezado"
 
 #: ../inc/panel/theme-options.php:390
 msgid "There is no Header Image"
-msgstr "Não há nenhuma imagem de cabeçalho"
+msgstr "No hay ninguna imagen de encabezad"
 
 #: ../inc/panel/theme-options.php:396
 msgid "Featured Header Image Alt/Title Tag"
-msgstr "Descrevendo a imagem do cabeçalho com tag alt/title"
+msgstr "Alt/título del Tag de la imagen destacada de la cabecera"
 
 #: ../inc/panel/theme-options.php:404
 msgid "Featured Header Image Link URL"
-msgstr "Descrevendo a imagem do cabeçalho com o link do URL"
+msgstr "Link o URL de la imagen destacada de la cabecera"
 
 #: ../inc/panel/theme-options.php:413
 msgid "Reset Header Featured Image Options?"
-msgstr ""
-"Você quer voltar à configuração padrão (resetar) para as opções da imagem em "
-"destaque?"
+msgstr "¿Resetear las opciones de la imagen destacada del encabezado?"
 
 #: ../inc/panel/theme-options.php:417 ../inc/panel/theme-options.php:538
 #: ../inc/panel/theme-options.php:603
 msgid "Check to reset"
-msgstr "Marque para redefinir (resetar)"
+msgstr "Marca para reestablecer"
 
 #: ../inc/panel/theme-options.php:427
 msgid "Menu Options"
-msgstr "Opções de menu"
+msgstr "Opciones del Menu"
 
 #: ../inc/panel/theme-options.php:431 ../inc/panel/theme-options.php:434
 msgid "Menu Tutorial"
-msgstr "Aprenda a fazer o menu com nosso tutorial"
+msgstr "Tutorial de Menu"
 
 #: ../inc/panel/theme-options.php:434
 msgid "http://catchthemes.com/blog/custom-menus-wordpress-themes/"
@@ -952,23 +944,23 @@ msgstr "http://catchthemes.com/blog/custom-menus-wordpress-themes/"
 
 #: ../inc/panel/theme-options.php:434
 msgid "Click Here to Read Menu Tutorial"
-msgstr "Clique aqui para aprender, no tutorial, como fazer o menu"
+msgstr "Click Aqui para leer Tutorial del Menu"
 
 #: ../inc/panel/theme-options.php:439
 msgid "Custom Menus"
-msgstr "Menus personalizados"
+msgstr "Menús personalizados"
 
 #: ../inc/panel/theme-options.php:442
 msgid "Click to Create Custom Menus"
-msgstr "Clique para criar os menus personalizados"
+msgstr "Click aquí para crear menús personalizados"
 
 #: ../inc/panel/theme-options.php:442
 msgid "Click Here to Create Menu"
-msgstr "Clique aqui para criar o menu"
+msgstr "Click Aqui para crear Menu"
 
 #: ../inc/panel/theme-options.php:447
 msgid "Assign Locations"
-msgstr "Atribua as localizações"
+msgstr "Asignar Menu Location"
 
 #: ../inc/panel/theme-options.php:448
 msgid ""
@@ -976,136 +968,119 @@ msgid ""
 "Sidebar Menu, Primary Menu, Secondary Menu and Footer Menu Locations. This "
 "will replace the WordPress default page menu"
 msgstr ""
-"<b>Nota:</b> Você pode atribuir o menu personalizado para as localizações a "
-"seguir: menu de cabeçalho fixado no topo, menu do cabeçalho da barra lateral "
-"direita, menu principal, menu secundário e menu do rodapé. Isso irá "
-"substituir o menu da página padrão do WordPress."
+"Nota: Puedes asignar un menú personalizado al menú superior del encabezado "
+"fijo, al menú del encabezado de la barra lateral derecha, al menú principal, "
+"al menú secundario o a las partes del menú del pie de página. Esto "
+"reemplazará los menús de las páginas por defecto de Wordpress"
 
 #: ../inc/panel/theme-options.php:451
 msgid "Click to Manage Menu Locations"
-msgstr "Clique para gerenciar os locais dos menus"
+msgstr "Haz clic para gestionar las ubicaciones del menú"
 
 #: ../inc/panel/theme-options.php:456
 msgid "Disable Default Page Menu?"
-msgstr "Você quer desativar o menu da pagina padrão?"
+msgstr "¿Deshabilitar el menú de la página predeterminada?"
 
 #: ../inc/panel/theme-options.php:470
 msgid "Search Options"
-msgstr "Opções da pesquisa no Website"
+msgstr "Search Options"
 
 #: ../inc/panel/theme-options.php:474
 msgid "Default Display Text in Search"
-msgstr ""
-"Exibição do texto padrão no campo da caixa de texto Pesquisar do Website"
+msgstr "Texto por defecto en búsquedas"
 
 #: ../inc/panel/theme-options.php:487
 msgid "Layout Options"
-msgstr "Opções da disposição e apresentação do Website (Layout)"
+msgstr "Opciones de diseño"
 
 #: ../inc/panel/theme-options.php:491
 msgid "Default Layout Options"
-msgstr "Opções do layout padrão"
+msgstr "Opciones de formato predeterminado"
 
 #: ../inc/panel/theme-options.php:496
 msgid "Three Columns"
-msgstr "Três colunas"
+msgstr "Tres columnas"
 
 #: ../inc/panel/theme-options.php:501
 msgid "Right Sidebar"
-msgstr "Barra lateral direita"
+msgstr "Barra lateral derecha"
 
 #: ../inc/panel/theme-options.php:506
 msgid "Left Sidebar"
-msgstr "Barra lateral esquerda"
+msgstr "Barra lateral izquierda"
 
 #: ../inc/panel/theme-options.php:511
 msgid "No Sidebar"
-msgstr "Sem barra lateral"
+msgstr "Sin barra lateral"
 
 #: ../inc/panel/theme-options.php:517
 msgid "Archive Content Layout"
-msgstr "Layout do arquivo de conteúdo"
+msgstr "Contenido de la disposición del contenido"
 
 #: ../inc/panel/theme-options.php:522
 msgid "Excerpt/Blog Display"
-msgstr "Trecho ou resumo do conteúdo para exibição no blog"
+msgstr "Visualización del extracto/blog"
 
 #: ../inc/panel/theme-options.php:527
 msgid "Full Content Display"
-msgstr "Mostrar o conteúdo completo no blog"
+msgstr "Visualización del contenido completo"
 
 #: ../inc/panel/theme-options.php:534
 msgid "Reset Layout?"
-msgstr "Você quer voltar às configurações padrão (resetar) para o Layout?"
+msgstr "Resetear diseño?"
 
 #: ../inc/panel/theme-options.php:548
 msgid "Homepage / Frontpage Category Setting"
-msgstr ""
-"Configurações da página inicial (Homepage) e da página da frente (Frontpage)"
+msgstr "Ajustes de la página principal"
 
 #: ../inc/panel/theme-options.php:552
 msgid "Front page posts categories:"
-msgstr "Categoria das postagens da primeira página:"
+msgstr "Categorías de la página principal"
 
 #: ../inc/panel/theme-options.php:553
 msgid ""
 "Only posts that belong to the categories selected here will be displayed on "
 "the front page."
 msgstr ""
-"Somente as postagens que pertencem às categorias selecionadas aqui, serão "
-"exibidos na primeira página."
+"Sólo los artículos que pertenezcan a las categorías seleccionadas se "
+"mostrarán en la página principal."
 
 #: ../inc/panel/theme-options.php:557
 msgid "--Disabled--"
-msgstr "- Desativado -"
+msgstr "--Desactivado--"
 
 #: ../inc/panel/theme-options.php:568
 msgid "You may select multiple categories by holding down the CTRL key."
 msgstr ""
-"Você pode selecionar várias categorias, mantendo pressionada a tecla CTRL."
+"Puedes seleccionar várias categorías manteniendo pulsada la tecla 'Ctrl'."
 
 #: ../inc/panel/theme-options.php:578
 msgid "Excerpt / More Tag Settings"
-msgstr "Configurações de tag Mais (Continue lendo...) Excerpt/Mais"
+msgstr "Ajustes de Extracto / Etiqueta 'leer más'"
 
 #: ../inc/panel/theme-options.php:582
 msgid "More Tag Text"
-msgstr "Texto da tag Mais (leia mais...)"
+msgstr "Texto de la etiqueta 'leer más'"
 
 #: ../inc/panel/theme-options.php:590
 msgid "Excerpt length(words)"
-msgstr ""
-"Quantidade de palavras (excerpt) que serão usadas para apresentar o resumo "
-"da postagem, em páginas que usarem esse recurso. ( exemplo: home, "
-"categorias, etc...)"
+msgstr "Longitud del extracto (palabras):"
 
 #: ../inc/panel/theme-options.php:599
 msgid "Reset Excerpt?"
-msgstr ""
-"Você quer voltar às configurações padrão (resetar) para o resumo das "
-"postagens?"
+msgstr "¿Resetear el extracto?"
 
 #: ../inc/panel/theme-options.php:613
 msgid "Custom CSS"
-msgstr ""
-"Folha de estilo personalizado CSS - (Cascading Style Sheet - Folha de Estilo "
-"em Cascata)"
+msgstr "CSS Personalizado"
 
 #: ../inc/panel/theme-options.php:617
 msgid "Enter your custom CSS styles."
-msgstr "Coloque aqui a sua folha de estilo CSS personalizado!"
+msgstr "Introduce tus estilos CSS personalizados."
 
 #: ../inc/panel/theme-options.php:625
 msgid "CSS Tutorial from W3Schools."
-msgstr ""
-"Aprenda tudo que você precisa saber a respeito de CSS, de como fazer "
-"apresentação das folhas de estilo em cascata.</br><strong>CSS</strong> "
-"(<strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heet - "
-"Folha de Estilo em Cascata) com os tutoriais dinâmicos da escola "
-"<strong>W3Schools</strong>. (em inglês, contudo, vale o seu esforço em "
-"traduzir, para aprender esse <strong>Ensinamento Gratuito</strong> e "
-"apresentar o seu Website/Blog a seu gosto, para o seu público alvo na "
-"internet!)"
+msgstr "Tutorial de CSS de W3Schools."
 
 #: ../inc/panel/theme-options.php:628
 msgid "http://www.w3schools.com/css/default.asp"
@@ -1113,29 +1088,27 @@ msgstr "http://www.w3schools.com/css/default.asp"
 
 #: ../inc/panel/theme-options.php:628
 msgid "CSS Tutorial"
-msgstr ""
-"W3Schools - Tutoriais para aprender CSS (Cascading Style Sheet - Folha de "
-"Estilo em Cascata)"
+msgstr "Tutorial CSS"
 
 #: ../inc/panel/theme-options.php:628
 msgid "Click Here to Read"
-msgstr "Clique aqui para ler e aprender"
+msgstr "Haz clic aquí para leerlo"
 
 #: ../inc/panel/theme-options.php:638
 msgid "Scroll Up"
-msgstr "Rolar para cima"
+msgstr "Scroll Up"
 
 #: ../inc/panel/theme-options.php:642
 msgid "Disable Scroll Up?"
-msgstr "Você quer desativar o efeito de rolar a página para cima?"
+msgstr "Disable Scroll Up?"
 
 #: ../inc/panel/theme-options.php:659
 msgid "Color Scheme"
-msgstr "Esquema de Cores"
+msgstr "Color Scheme"
 
 #: ../inc/panel/theme-options.php:663
 msgid "Default Color Scheme"
-msgstr "Esquema de cores padrão"
+msgstr "Combinación de colores por defecto"
 
 #: ../inc/panel/theme-options.php:668
 msgid "Light"
@@ -1143,130 +1116,124 @@ msgstr "Claro"
 
 #: ../inc/panel/theme-options.php:672
 msgid "Dark"
-msgstr "Escuro"
+msgstr "Oscuro"
 
 #: ../inc/panel/theme-options.php:686
 msgid "Slider Options"
-msgstr "Opções para o Slider Show"
+msgstr "Opciones de la presentación de destacados"
 
 #: ../inc/panel/theme-options.php:690
 msgid "Select Slider Type"
-msgstr "Selecione o tipo de Slider Show"
+msgstr "Elige el tipo de presentación"
 
 #: ../inc/panel/theme-options.php:695
 msgid "Demo Slider"
-msgstr "Demontração do Slider Show"
+msgstr "Demostración de Slider"
 
 #: ../inc/panel/theme-options.php:700
 msgid "Featured Page Slider"
-msgstr "Opções do Slider Show da página em destaque"
+msgstr "Presentación de páginas destacadas"
 
 #: ../inc/panel/theme-options.php:707
 msgid "Enable Sidebar"
-msgstr "Ativar a barra lateral"
+msgstr "Activar barra lateral"
 
 #: ../inc/panel/theme-options.php:712
 msgid "Homepage / Frontpage"
-msgstr ""
-"Configurações da página inicial (Homepage) e da página da frente (Frontpage)"
+msgstr "Página de Inicio / Portada"
 
 #: ../inc/panel/theme-options.php:729
 msgid "Number of Slides"
-msgstr "Escolha o número de Slides para apresentação"
+msgstr "Número de diapositivas"
 
 #: ../inc/panel/theme-options.php:738
 msgid "Transition Effect:"
-msgstr "Escolha o efeito de transição:"
+msgstr "Efecto de transición"
 
 #: ../inc/panel/theme-options.php:742
 msgid "fade"
-msgstr "Efeito desaparecer gradualmente"
+msgstr "desaparición"
 
 #: ../inc/panel/theme-options.php:743
 msgid "wipe"
-msgstr "Efeito limpar"
+msgstr "limpiar"
 
 #: ../inc/panel/theme-options.php:744
 msgid "scrollUp"
-msgstr "Efeito rolar para cima"
+msgstr "desplazamiento arriba"
 
 #: ../inc/panel/theme-options.php:745
 msgid "scrollDown"
-msgstr "Efeito rolar para baixo"
+msgstr "desplazamiento abajo"
 
 #: ../inc/panel/theme-options.php:746
 msgid "scrollLeft"
-msgstr "Efeito rolar para a esquerda"
+msgstr "desplazamiento izquierda"
 
 #: ../inc/panel/theme-options.php:747
 msgid "scrollRight"
-msgstr "Efeito rolar para a direita"
+msgstr "desplazamiento derecha"
 
 #: ../inc/panel/theme-options.php:748
 msgid "blindX"
-msgstr "Efeito persiana no eixo X"
+msgstr "cortinilla X"
 
 #: ../inc/panel/theme-options.php:749
 msgid "blindY"
-msgstr "Efeito persiana no eixo Y"
+msgstr "cortinilla Y"
 
 #: ../inc/panel/theme-options.php:750
 msgid "blindZ"
-msgstr "Efeito persiana no eixo Z"
+msgstr "cortinilla Z"
 
 #: ../inc/panel/theme-options.php:751
 msgid "cover"
-msgstr "Efeito sobrepor"
+msgstr "cubrir"
 
 #: ../inc/panel/theme-options.php:752
 msgid "shuffle"
-msgstr "Efeito micelânia"
+msgstr "barajar"
 
 #: ../inc/panel/theme-options.php:759
 msgid "Transition Delay"
-msgstr "Regular o tempo de exposição do Slide, para leitura do texto."
+msgstr "Retardo de la transición"
 
 #: ../inc/panel/theme-options.php:763 ../inc/panel/theme-options.php:773
 msgid "second(s)"
-msgstr ""
-"segundo(s)<br/>Exemplo: de 0.1 a 0.9 ou 1 ou 2 ou 7 ou 15 ou 23,  enfim... o "
-"número é para sua livre escolha!<br/>Teste qualquer número e escolha o tempo "
-"(em segundos) que fique melhor para a visualização!"
+msgstr "segundo(s)"
 
 #: ../inc/panel/theme-options.php:769
 msgid "Transition Length"
-msgstr "Regular a velocidade da transição entre os Slides."
+msgstr "Duración de la Transición"
 
 #: ../inc/panel/theme-options.php:783
 msgid "Featured Page Slider Options"
-msgstr "Opções do Slider Show das páginas em destaque"
+msgstr "Opciones de la presentación de páginas destacadas"
 
 #: ../inc/panel/theme-options.php:789
 #, php-format
 msgid "Featured Page Slider #%s"
-msgstr "Páginas em destaque no Slider Show #%s"
+msgstr "Página recomendada en el Slider # %s"
 
 #: ../inc/panel/theme-options.php:806
 msgid "Click Here To Edit"
-msgstr "Clique aqui para editar"
+msgstr "Haz clic aquí para editar"
 
 #: ../inc/panel/theme-options.php:821
 msgid "Social Icons"
-msgstr "Ícones sociais"
+msgstr "Iconos sociales"
 
 #: ../inc/panel/theme-options.php:825
 msgid "Enable Social Icons in Sidebar?"
-msgstr "Você quer ativar os ícones sociais na barra lateral?"
+msgstr "¿Habilitar los iconos de Redes Sociales en la barra lateral?"
 
 #: ../inc/panel/theme-options.php:828
 msgid "Just add Catch Flames Social Widget in Sidebar"
-msgstr ""
-"Basta adicionar o Widget Social do Catch Flames na barra lateral de sua "
-"preferência"
+msgstr "Sólo tiene que añadir Catch Flames Social Widget a la barra lateral"
 
 #: ../inc/panel/theme-options.php:833
 msgid "Enable Social Icons in Footer?"
-msgstr "Você quer ativar os ícones sociais no rodapé?"
+msgstr "¿Habilitar iconos sociales en el pie de página?"
 
 #: ../inc/panel/theme-options.php:874
 msgid "Youtube"
@@ -1274,7 +1241,7 @@ msgstr "Youtube"
 
 #: ../inc/panel/theme-options.php:1020
 msgid "Enable SpecificFeeds?"
-msgstr "Você quer ativar os Feeds específicos?"
+msgstr "Enable SpecificFeeds?"
 
 #: ../inc/panel/theme-options.php:1414
 msgid "Y"
@@ -1282,44 +1249,44 @@ msgstr "Y"
 
 #: ../inc/panel/theme-options.php:1435
 msgid "Theme: Catch Flames by "
-msgstr "Tema: Catch Flames Pro por"
+msgstr "Tema: Catch Flames por "
 
 #: ../inc/panel/theme-options.php:1457
 msgid "Copyright"
-msgstr "Direitos Autorais"
+msgstr "Copyright"
 
 #: ../inc/panel/theme-options.php:1457
 msgid "All Rights Reserved"
-msgstr "Todos os Direitos são Reservados"
+msgstr "Todos los derechos reservados"
 
 #: ../inc/panel/theme-options.php:1472
 msgid "More Theme Options &raquo;"
-msgstr "More Theme Options &raquo;"
+msgstr "Más opciones temáticas »"
 
 #: ../search.php:15
 #, php-format
 msgid "Search Results for: %s"
-msgstr "Resultados da Pesquisa para: %s"
+msgstr "Resultados de la búsqueda para: %s"
 
 #: ../search.php:43
 msgid ""
 "Sorry, but nothing matched your search criteria. Please try again with some "
 "different keywords."
 msgstr ""
-"Desculpe, mas nada corresponde aos seus critérios de busca. Por favor, tente "
-"novamente com algumas palavras-chave diferentes."
+"Lo sentimos, pero nada corresponde a tus criterios de búsqueda. Por favor, "
+"inténtalo de nuevo con palabras clave diferentes."
 
 #: ../sidebar-third.php:57
 msgid "Secondary Sidebar Widget Area"
-msgstr "Área da barra lateral secundária"
+msgstr "Barra Lateral Secundaria"
 
 #: ../sidebar-third.php:59
 msgid ""
 "This is the Secondary Sidebar Widget Area if you are using a three column "
 "site layout option."
 msgstr ""
-"Esta é a barra lateral secundária, se você estiver usando uma opção de "
-"layout para o site de três colunas."
+"Esto es la barra lateral secundaria si está usando una opción de diseño de "
+"sitio tres columnas."
 
 #: ../sidebar-third.php:60 ../sidebar.php:77
 #, php-format
@@ -1327,20 +1294,20 @@ msgid ""
 "You can add content to this area by visiting your <a href=\"%s\">Widgets "
 "Panel</a> and adding new widgets to this area."
 msgstr ""
-"Você pode adicionar conteúdo a esta área visitando o seu <a href=\"%s"
-"\">Painel de Widgets</a> e assim, adicionando novos widgets para esta área."
+"Puede agregar contenido a esta área visitando a su <a href=\"%s\">Panel de "
+"Widgets</a> y añadiendo nuevos widgets a esta área."
 
 #: ../sidebar.php:74
 msgid "Primary Sidebar Widget Area"
-msgstr "Área da barra lateral principal"
+msgstr "El área de widget barra lateral primaria"
 
 #: ../sidebar.php:76
 msgid ""
 "This is the Primary Sidebar Widget Area if you are using a two or three "
 "column site layout option."
 msgstr ""
-"Esta é a barra lateral principal se você estiver usando uma opção de layout "
-"para o site de duas ou três colunas."
+"Esta es la barra lateral primaria si está usando una opción de diseño de "
+"sitio columna dos o tres."
 
 #: ../single.php:19
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
@@ -1348,96 +1315,92 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Anterior"
 
 #: ../single.php:20
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Próximo <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Siguiente <span class=\"meta-nav\">&rarr;</ span>"
 
 #: ../tag.php:16
 #, php-format
 msgid "Tag Archives: %s"
-msgstr "Arquivos da Tag: %s"
-
-#~ msgid "Change Fav Icon"
-#~ msgstr "Adicionar/Mudar Favicon"
+msgstr "Archivos de la etiqueta: %s"
 
 #~ msgid "Header Right Sidebar Menu"
-#~ msgstr "Menu do cabeçalho da barra lateral direita"
+#~ msgstr "Menú del encabezado de la barra lateral derecha"
 
 #~ msgid "Secondary Menu"
-#~ msgstr "Menu secundário"
+#~ msgstr "Menu Secundario"
 
 #~ msgid "Footer Menu"
-#~ msgstr "Menu do rodapé"
+#~ msgstr "Menú del pie de página"
 
 #~ msgid "Secondary menu"
-#~ msgstr "Menu Secundário"
+#~ msgstr "Menu Secundario"
 
 #~ msgid "Footer menu"
-#~ msgstr "Menu do Rodapé"
+#~ msgstr "Menú del pie de página"
 
 #~ msgid "Default"
-#~ msgstr "Padrão"
+#~ msgstr "﻿Predeterminado"
 
 #~ msgid "Enable"
-#~ msgstr "Ativar"
+#~ msgstr "Habilitar"
 
 #~ msgid "Three Columns (Style 2)"
-#~ msgstr "Três colunas (Estilo 2)"
+#~ msgstr "Tres columnas (estilo 2)"
 
 #~ msgid "Three Columns (Style 3)"
-#~ msgstr "Três colunas (Estilo 3)"
+#~ msgstr "Tres columnas (tipo 3)"
 
 #~ msgid "No Sidebar, One Column"
-#~ msgstr "Sem Barra Lateral, Uma Coluna"
+#~ msgstr "Sin barra lateral, una columna"
 
 #~ msgid "No sidebar, Full Width"
-#~ msgstr "Sem Barra Lateral, Largura Total"
+#~ msgstr "Sin barra lateral, ancho completo"
 
 #~ msgid "Default Sidebar"
-#~ msgstr "Barra Lateral Principal"
+#~ msgstr "Sin barra lateral por defecto"
 
 #~ msgid "Optional Sidebar One"
-#~ msgstr "Barra Lateral Opcional Um"
+#~ msgstr "Barra lateral opcional uno"
 
 #~ msgid "Optional Sidebar Two"
-#~ msgstr "Barra Lateral Opcional Dois"
+#~ msgstr "Barra lateral opcional dos"
 
 #~ msgid "Optional Sidebar three"
-#~ msgstr "Barra Lateral Opcional Três"
+#~ msgstr "Barra lateral opcional tres"
 
 #~ msgid "Select Sidebar"
-#~ msgstr "Selecionar a Barra Lateral"
+#~ msgstr "Seleccione barra lateral"
 
 #~ msgid ""
 #~ "You have selected Post Slider but you haven't added the Post ID in "
 #~ "\"Appearance => Theme Options => Featured Slider => Featured Post Slider "
 #~ "Options\""
 #~ msgstr ""
-#~ "Você selecionou exibir Slider na postagem, mas você não adicionou o ID da "
-#~ "postagem em: \"Aparência => Opções do Tema => Slider em destaque => "
-#~ "Opções de Slider em destaque na postagem\""
+#~ "Has seleccionado Post Slider pero no has agregado el ID del mensaje de "
+#~ "\"Aspecto => tema => destacados Slider => Featured Post Slider opciones\""
 
 #~ msgid ""
 #~ "You have selected Category Slider but you haven't selected any categories "
 #~ "in \"Appearance => Theme Options => Featured Slider => Featured Category "
 #~ "Slider Options\""
 #~ msgstr ""
-#~ "Você selecionou exibir Slider na categoria, mas você não selecionou "
-#~ "nenhum categorias em: \"Aparência => Opções do Tema => Slider em destaque "
-#~ "=> Opções de Slider em destaque na categoria\""
+#~ "Has seleccionado la categoría Slider pero no has seleccionado ningunas "
+#~ "categorías en \"Apariencia => tema => destacados Slider => destacados "
+#~ "categoría Slider opciones\""
 
 #~ msgid ""
 #~ "You have selected Image Slider but you haven't uploaded any image in "
 #~ "\"Appearance => Theme Options => Featured Slider => Featured Image Slider "
 #~ "Options\""
 #~ msgstr ""
-#~ "Você selecionou exibir Slider com imagem, mas você não adicionou nenhuma "
-#~ "imagem em: \"Aparência => Opções do Tema => Slider em destaque => Opções "
-#~ "de Slider em destaque com imagem\""
+#~ "Has seleccionado imagen Slider pero no has subido ninguna imagen en "
+#~ "\"Apariencia => tema => destacados Slider => destacados imagen Slider "
+#~ "opciones\""
 
 #~ msgid "Footer Area Four"
-#~ msgstr "Área do Rodapé - Quatro"
+#~ msgstr "Área de pie de página 4"
 
 #~ msgid "Header Right Sidebar"
-#~ msgstr "Cabeçalho da barra lateral direita"
+#~ msgstr "Barra lateral derecha en cabecera"
 
 #~ msgid ""
 #~ "This is the header right widget area. It typically appears on the right "
@@ -1445,14 +1408,14 @@ msgstr "Arquivos da Tag: %s"
 #~ "any widget, and works best with a custom menu, a search form, social "
 #~ "icons widget or possibly a text widget."
 #~ msgstr ""
-#~ "Este é o Widget à direita da área do cabeçalho. Ele geralmente aparece no "
-#~ "lado direito do título do Website ou do seu logotipo. Esta área widget "
-#~ "não está equipada para exibir qualquer widget, e funciona melhor com um "
-#~ "menu personalizado, um formulário de pesquisa, um widget de ícones "
-#~ "sociais, ou, possivelmente, um widget de texto somente."
+#~ "Esta es la zona para widgets en la parte derecha del encabezado. Suele "
+#~ "aparecer a la derecha del título del sitio o logotipo. Esta área de "
+#~ "widgets no está equipada para mostrar cualquier widget y solo funciona "
+#~ "mejor con un menú personalizado, un formulario de búsqueda, un widget de "
+#~ "redes sociales o posiblemente un widget de texto."
 
 #~ msgid "Header Top Sidebar"
-#~ msgstr "Cabeçalho do topo da barra lateral"
+#~ msgstr "Barra lateral superior en cabecera"
 
 #~ msgid ""
 #~ "This is the header top widget area. It typically appears on the top of "
@@ -1462,311 +1425,773 @@ msgstr "Arquivos da Tag: %s"
 #~ "header top menu and default social & search icons or possibly a text "
 #~ "widget."
 #~ msgstr ""
-#~ "Esta é a área onde vai o Widget no cabeçalho do topo. Ele tipicamente "
-#~ "aparece no topo do Website, ao lado do título ou do seu logotipo. Para "
-#~ "mostra-lo, primeiramente você precisa habilita-lo, em: Aparência => "
-#~ "Opções do Tema => Opções para fixação no cabeçalho superior (Topo). Esta "
-#~ "área widget não está equipada para exibir qualquer widget, e funciona "
-#~ "melhor com um logotipo alternativo do Website, cabeçalho fixo de menu "
-#~ "superior (Topo) é um bom local para ícones sociais, ou também, com uma "
-#~ "caixa de pesquisa padrão, ou possivelmente, um widget de texto "
-#~ "explicativo sobre o seu Website, somente."
+#~ "Esta es el área del encabezado superior para widget. Normalmente aparece "
+#~ "en la parte superior del sitio título o logotipo. Para mostrar esto, "
+#~ "primero tienes que habilitarlo de apariencia-> opciones de Tema "
+#~ "=>opciones de encabezado fijo superior. Este área widget no funciona con "
+#~ "cualquier widget y funciona mejor con un logotipo, con un menú fijo "
+#~ "superior en el encabezado, con los iconos de redes sociales por defecto, "
+#~ "un cuadro de búsqueda o posiblemente un widget de texto."
 
 #~ msgid "Homepage Sidebar"
-#~ msgstr "Barra lateral da pagina inicial"
+#~ msgstr "Barra lateral en la página de inicio"
 
 #~ msgid "Archive Sidebar"
-#~ msgstr "Barra lateral de arquivo"
+#~ msgstr "Barra lateral de páginas de archivo"
 
 #~ msgid "Page Sidebar"
-#~ msgstr "Barra lateral da pagina"
+#~ msgstr "Barra lateral de la página"
 
 #~ msgid "Post Sidebar"
-#~ msgstr "Barra lateral da postagem"
+#~ msgstr "Barra lateral del artículo"
 
 #~ msgid "Optional Sidebar Three"
-#~ msgstr "Barra lateral opcional três"
+#~ msgstr "Barra lateral opcional tres"
 
 #~ msgid "Use this widget to add any type of Ad as a widget."
 #~ msgstr ""
-#~ "Utilize este widget como espaço publicitário para veiculação dos seus "
-#~ "produtos para comércio (código fonte do banner de quem você é afiliado), "
-#~ "adicionando qualquer tipo de anúncio como um widget, no local de sua "
-#~ "preferência."
+#~ "Utiliza este widget para añadir cualquier tipo de publicidad como widget."
 
 #~ msgid "1. Catch Flames Adspace Widget"
-#~ msgstr "1. Espaço para publicidade (Catch Flames)"
+#~ msgstr "1. Widget Adspace de Catch Flames"
 
 #~ msgid "Title (optional):"
 #~ msgstr "Título (opcional):"
 
 #~ msgid "Ad Code:"
-#~ msgstr "Código do Anúncio:"
+#~ msgstr "Código de publicidad:"
 
 #~ msgid "Image Url:"
-#~ msgstr "Url da Imagem:"
+#~ msgstr "URL de la imagen:"
 
 #~ msgid "Link URL:"
-#~ msgstr "URL do Link "
+#~ msgstr "URL:"
 
 #~ msgid "Open Link in New Window"
-#~ msgstr "Abrir link em nova janela"
+#~ msgstr "Open Link in New Window"
 
 #~ msgid "Alt text:"
-#~ msgstr "Texto alternativo (alt text):"
+#~ msgstr "Texto alternativo:"
 
 #~ msgid ""
 #~ "Use this widget to add Social Icons from Social Icons Settings as a "
 #~ "widget. "
 #~ msgstr ""
-#~ "Utilize esta ferramenta para adicionar ícones sociais, configurando os "
-#~ "ícones sociais como um widget."
+#~ "Utiliza este widget para añadir los iconos sociales de las Opciones como "
+#~ "un widget. "
 
 #~ msgid "2. Catch Flames Social Widget"
-#~ msgstr "2. Catch Flames Widget Social"
+#~ msgstr "Widget de Redes Sociales de Catch Flames"
 
 #~ msgid "Webmaster Tools"
-#~ msgstr "Ferramenta para Webmaster"
+#~ msgstr "Herramientas para webmasters"
 
 #~ msgid "Responsive Design"
-#~ msgstr ""
-#~ "Projeto desenhado para ser responsivo (compatível com dispositivos móveis)"
+#~ msgstr "Diseño adaptable"
 
 #~ msgid "Disable Responsive Design?"
-#~ msgstr ""
-#~ "Você quer <b>desativar</b> esse projeto que foi cuidadosamente desenhado "
-#~ "e desenvolvido para ser responsivo, compatível em aparelhos e/ou "
-#~ "dispositivos móveis? (como: Notebooks, Netbooks, Ultrabooks, Tablets, "
-#~ "Smartphones, aparelhos Celulares, PDA's e similares)"
+#~ msgstr "¿Desactivar el diseño adaptable?"
 
 #~ msgid "Disable Social?"
-#~ msgstr "Você quer desativar os ícones sociais?"
+#~ msgstr "¿Desactivar Social?"
 
 #~ msgid "Disable Search?"
-#~ msgstr "Você quer desativar o campo de pesquisar no cabeçalho?"
+#~ msgstr "¿Desactivar Búsqueda?"
 
 #~ msgid "Disable Header?"
-#~ msgstr "<strong>Desativar</strong> o cabeçalho?"
+#~ msgstr "¿Desactivar cabecera?"
 
 #~ msgid "Disable Header Content?"
-#~ msgstr "Desativar o conteúdo do cabeçalho?"
+#~ msgstr "¿Desactivar el contenido de la cabecera?"
 
 #~ msgid "Disable Site Title?"
-#~ msgstr "Você quer desativar o título do website/blog?"
+#~ msgstr "¿Deshabilitar Titulo del sitio?"
 
 #~ msgid "Disable Site Description (Tagline)?"
-#~ msgstr "Você quer desativar a descrição do website/blog (Tagline)?"
+#~ msgstr "¿Deshabilitar descripción del Sitio (Tagline)?"
 
 #~ msgid "Move Site Title and Tagline?"
-#~ msgstr "Você quer mover o título do site e sua descrição?"
+#~ msgstr "¿Mover Titulo del Sitio y Tagline?"
 
 #~ msgid "Check to move before the Logo"
-#~ msgstr "Marque para mover à cima a imagem do logotipo no cabeçalho"
+#~ msgstr "Marcar para mover antes del Logo"
 
 #~ msgid "Separate Logo and Site Details?"
-#~ msgstr "Você quer separar o logotipo dos detalhes do website/blog?"
+#~ msgstr "¿Separar Logo y Detalles del Sitio?"
 
 #~ msgid "Check to move down"
-#~ msgstr "Marque para mover para baixo"
+#~ msgstr "Marcar para mover abajo"
 
 #~ msgid "Header Top Margin"
-#~ msgstr "Margem do cabeçalho na parte superior"
+#~ msgstr "Margen superior de la cabecera"
 
 #~ msgid "Header Bottom Margin"
-#~ msgstr "Margem do cabeçalho na parte inferior"
+#~ msgstr "Margen inferior de la cabecera"
 
 #~ msgid "Reset Header Margin?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para a margem do "
-#~ "cabeçalho?"
+#~ msgstr "¿Restablecer margen de la cabecera?"
 
 #~ msgid "Header Right Options"
-#~ msgstr "Opções do cabeçalho à direita"
+#~ msgstr "Opciones de la parte derecha del encabezado"
 
 #~ msgid "Disable Search at Header Right Section?"
-#~ msgstr "Você quer desativar a seção Pesquisar do cabeçalho à direita?"
+#~ msgstr "¿Desactivar la búsqueda de la sección de la derecha de la cabecera?"
 
 #~ msgid "Check to Disable"
-#~ msgstr "Marque aqui para desativar"
+#~ msgstr "Marcar para deshabilitar"
 
 #~ msgid "Disable Header Right Sidebar?"
-#~ msgstr "Você quer desativar o cabeçalho da barra lateral direita?"
+#~ msgstr "¿Desactivar la barra lateral derecha en cabecera?"
 
 #~ msgid "Widgets"
 #~ msgstr "Widgets"
 
 #~ msgid "Click Here to Add/Replace Widgets"
-#~ msgstr "Clique aqui para adicionar/substituir os Widgets"
+#~ msgstr "Haga clic aquí para agregar o reemplazar Widgets"
 
 #~ msgid "Page/Post Featured Image Size"
-#~ msgstr "Tamanho da imagem em destaque em página/post"
+#~ msgstr "Tamaño de la imagen destacada del post o página"
 
 #~ msgid "Full Image"
-#~ msgstr "Imagem completa"
+#~ msgstr "Imagen completa"
 
 #~ msgid "Full Width Slider Image"
-#~ msgstr "largura total do Slider "
+#~ msgstr "Ancho completo de la imagen del Slider"
 
 #~ msgid "Normal Width Slider Image"
-#~ msgstr "Largura normal do Slider "
+#~ msgstr "Ancho normal de la imagen del Slider"
 
 #~ msgid "Featured Header Image Position"
-#~ msgstr "Posição da imagem em destaque no cabeçalho"
+#~ msgstr "Posición de la imagen destacada del encabezado"
 
 #~ msgid "Before Menu"
-#~ msgstr "Antes do menu"
+#~ msgstr "Antes del Menú"
 
 #~ msgid "After Menu"
-#~ msgstr "Após o menu"
+#~ msgstr "Después del menú"
 
 #~ msgid "Before Header"
-#~ msgstr "Antes do cabeçalho"
+#~ msgstr "Antes del encabezado"
 
 #~ msgid "After Top Sidebar"
-#~ msgstr "Após a barra lateral superior"
+#~ msgstr "Después de barra superior"
 
 #~ msgid "Target. Open Link in New Window?"
-#~ msgstr "Como quer abrir o link (target). Abrir link em uma nova janela/aba?"
+#~ msgstr "¿Abrir la URL del enlace en una ventana nueva?"
 
 #~ msgid "Check to open in new window"
-#~ msgstr "Marcar para abrir em uma nova janela/aba"
+#~ msgstr "Marca para abrir en una ventana nueva"
 
 #~ msgid "Font Family Options"
-#~ msgstr "Opções da família de fonte"
+#~ msgstr "Opciones de fuente"
 
 #~ msgid "Default Font Family"
-#~ msgstr "Família de fonte Padrão"
+#~ msgstr "Fuente predeterminada"
 
 #~ msgid "Site Title & Description Font Family"
-#~ msgstr "Família de fonte usada no título e na descrição do Website"
+#~ msgstr "Fuente del título y la descripción"
 
 #~ msgid "Headings Font Family"
-#~ msgstr "Família de fonte utilizada para os títulos (H1 até H6)"
+#~ msgstr "Fuente de los encabezados"
 
 #~ msgid "Content Font Family"
-#~ msgstr "Família de fonte usada no conteúdo"
+#~ msgstr "Fuente del contenido"
 
 #~ msgid "Reset Fonts?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para as suas escolhas "
-#~ "de fontes?"
+#~ msgstr "¿Restablecer fuentes?"
 
 #~ msgid "Font Size Options"
-#~ msgstr "Opções para o tamanho da fonte"
+#~ msgstr "Opciones de tamaño de fuente"
 
 #~ msgid "Default Font Size"
-#~ msgstr "O tamanho da fonte padrão"
+#~ msgstr "Tamaño de fuente predeterminado"
 
 #~ msgid "Default Line Height"
-#~ msgstr "Altura da linha padrão (Espaçamento entre linhas - Line Height)"
+#~ msgstr "Altura de línea predeterminada"
 
 #~ msgid "Site Title Font Size"
-#~ msgstr "o Tamanho da fonte usada no título do Website"
+#~ msgstr "Tamaño de la fuente del título"
 
 #~ msgid "Site Title Line Height"
-#~ msgstr ""
-#~ "Altura da linha dos títulos do Website (Espaçamento entre linhas - Line "
-#~ "Height)"
+#~ msgstr "Altura de línea del título"
 
 #~ msgid "Site Description Font Size"
-#~ msgstr "O tamanho da fonte para a descrição no Website"
+#~ msgstr "Tamaño de fuente de la descripción"
 
 #~ msgid "Site Description Line Height"
-#~ msgstr ""
-#~ "Altura da linha da descrição do Website (Espaçamento entre linhas - Line "
-#~ "Height)"
+#~ msgstr "Altura de línea de la descripción"
 
 #~ msgid "H1 Font Size"
-#~ msgstr "O tamanho da fonte para o título H1"
+#~ msgstr "Tamaño de fuente H1"
 
 #~ msgid "H2 Font Size"
-#~ msgstr "O tamanho da fonte para o título H2"
+#~ msgstr "Tamaño de fuente H2"
 
 #~ msgid "H3 Font Size"
-#~ msgstr "O tamanho da fonte para o título H3"
+#~ msgstr "Tamaño de fuente H3"
 
 #~ msgid "H4 Font Size"
-#~ msgstr "O tamanho da fonte para o título H4"
+#~ msgstr "Tamaño de fuente H4"
 
 #~ msgid "Headings Line Height"
-#~ msgstr ""
-#~ "Altura da linha dos títulos (Espaçamento entre linhas - Line Height)"
+#~ msgstr "Altura de línea de los encabezados"
 
 #~ msgid "Content Font Size"
-#~ msgstr "O tamanho da fonte para o conteúdo"
+#~ msgstr "Tamaño de letra del contenido"
 
 #~ msgid "Content Line Height"
-#~ msgstr ""
-#~ "Altura da linha do conteúdo (Espaçamento entre linhas - Line Height)"
+#~ msgstr "Altura de línea del contenido"
 
 #~ msgid "Reset Font Size?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para o tamanho da "
-#~ "fonte que usou?"
+#~ msgstr "¿Restablecer tamaño de letra?"
 
 #~ msgid "No Sidebar, Full Width"
-#~ msgstr "Sem barra lateral, largura total"
+#~ msgstr "Sin barra lateral, ancho completo"
 
 #~ msgid "Excerpt/Blog Display (Style 1 - Featured Image Size )"
-#~ msgstr ""
-#~ "Estilo de exibição do trecho (Excerpt) no Blog (Estilo 1 - Destaque para "
-#~ "o tamanho da imagem)"
+#~ msgstr "Extracto/Blog Display (Estilo 1 - tamaño de la imagen destacada)"
 
 #~ msgid "Excerpt/Blog Display (Style 2 - Featured Image Size )"
 #~ msgstr ""
-#~ "Estilo de exibição do trecho (Excerpt) no Blog (Estilo 2 - Destaque para "
-#~ "o tamanho da imagem)"
+#~ "Extracto de lo mostrado en el blog (estilo 2 - tamaño de la imagen "
+#~ "destacada)"
+
+#~ msgid "Excerpt/Blog Display ( Full Image Size )"
+#~ msgstr "Extracto de lo mostrado en el blog (tamaño de la imagen completa)"
 
 #~ msgid "Excerpt/Blog Display ( Featured Image Small )"
 #~ msgstr ""
-#~ "Estilo de exibição do trecho (Excerpt) no Blog (Destaque da Imagem em "
-#~ "tamanho pequeno)"
+#~ "Extracto de lo mostrado en el blog (tamaño de la imagen destacada pequeña)"
 
 #~ msgid "Excerpt/Blog Display ( Featured Image Square )"
-#~ msgstr ""
-#~ "Estilo de exibição do trecho (Excerpt) no Blog (Destaque da Imagem em "
-#~ "tamanho quebrado)"
+#~ msgstr "Extracto de lo mostrado en el blog (tamaño de imagen cuadrada)"
 
 #~ msgid "Excerpt/Blog Display ( Featured Image Tall )"
-#~ msgstr ""
-#~ "Estilo de exibição do trecho (Excerpt) no Blog (Destaque da imagem em "
-#~ "elevada estatura)"
+#~ msgstr "Extracto de lo mostrado en el blog (imagen destacada alta)"
 
 #~ msgid "Feed Redirect"
-#~ msgstr "Redirecionamento para o seu Feed"
+#~ msgstr "Redirección del feed"
 
 #~ msgid "Feed Redirect URL"
-#~ msgstr "Redirecionamento da URL para o seu Feed"
+#~ msgstr "URL de redirección del feed"
 
 #~ msgid "Add in the Feedburner URL"
-#~ msgstr "Adicionar a URL do Feedburner"
+#~ msgstr "Añadir la URL de Feedburner"
 
 #~ msgid "Comments Options"
-#~ msgstr "Configurar as opções de comentários"
+#~ msgstr "Comments Options"
 
 #~ msgid "Disable Comment?"
-#~ msgstr "Você quer desativar os comentários?"
+#~ msgstr "¿Deshabilitar comentarios?"
 
 #~ msgid "Use WordPress Settings"
-#~ msgstr "Usar as configurações do WordPress"
+#~ msgstr "Use WordPress Settings"
 
 #~ msgid "Disable in Pages"
-#~ msgstr "Desativar nas páginas"
+#~ msgstr "Deshabilitar en las páginas"
 
 #~ msgid "Disable Completely"
-#~ msgstr "Desativar completamente"
+#~ msgstr "Deshabilitar completamente"
 
 #~ msgid "Disable Notes?"
-#~ msgstr "Você quer desativar as notas?"
+#~ msgstr "¿Deshabilitar notas?"
 
 #~ msgid "Disable Website Field?"
-#~ msgstr "Você quer desativar o campo no Website?"
+#~ msgstr "Disable Website Field?"
 
 #~ msgid "Footer Editor Option"
-#~ msgstr "Opção do editor de área do Rodapé"
+#~ msgstr "Opciones del editor del pie de página"
 
 #~ msgid "Footer Editor"
-#~ msgstr "Editor do Rodapé"
+#~ msgstr "Editor del pie de página"
+
+#~ msgid ""
+#~ "You can add custom <acronym title=\"Hypertext Markup Language\">HTML</"
+#~ "acronym> and/or shortcodes, which will be automatically inserted into "
+#~ "your theme.<br />Some shorcodes: [the-year], [site-link], [wp-link] for "
+#~ "current year, your site link, wordpress site link respectively."
+#~ msgstr ""
+#~ "Puede agregar personalizacion <acronym title=\"Hypertext Markup Language"
+#~ "\">HTML</acronym> y/o códigos cortos, que se insertará automáticamente en "
+#~ "su tema.<br />Algunos Codigos Cortos: [the-year], [site-link], [wp-link] "
+#~ "para el año en curso, su enlace web, enlace web wordpress respectivamente."
+#~ "\""
+
+#~ msgid "Reset Footer?"
+#~ msgstr "¿Restablecer pie de página?"
+
+#~ msgid "Update Notifier"
+#~ msgstr "Update Notifier"
+
+#~ msgid "Disable Update Notifier?"
+#~ msgstr "Disable Update Notifier?"
+
+#~ msgid "Site Color Options"
+#~ msgstr "Opciones de color del sitio"
+
+#~ msgid "Site Title Color:"
+#~ msgstr "Color del Titulo del Sitio:"
+
+#~ msgid "Click Here to change"
+#~ msgstr "Haz click aquí para cambiar"
+
+#~ msgid "Site Title Hover Color:"
+#~ msgstr "Site Title Hover Color:"
+
+#~ msgid "Site Tagline Color:"
+#~ msgstr "Color de fondo de los tags:"
+
+#~ msgid "Site Background Color:"
+#~ msgstr "Color de fondo del sitio:"
+
+#~ msgid "Text Color:"
+#~ msgstr "Color del texto:"
+
+#~ msgid "Link Color:"
+#~ msgstr "Color de enlaces:"
+
+#~ msgid "Reset Site Colors?"
+#~ msgstr "¿Resetear los colores del sitio?"
+
+#~ msgid "Header Color Options"
+#~ msgstr "Opciones de color del encabezado"
+
+#~ msgid "Header Top Sidebar Background Color:"
+#~ msgstr "Color del fondo del encabezado de la barra lateral superior:"
+
+#~ msgid "Header Background Color:"
+#~ msgstr "Color del fondo del encabezado:"
+
+#~ msgid "Header Image Background Color:"
+#~ msgstr "Color de la imagen de fondo del encabezado:"
+
+#~ msgid "Reset Header Colors?"
+#~ msgstr "¿Resetear los colores del encabezado?"
+
+#~ msgid "Slider Color Options"
+#~ msgstr "Opciones de color del Slider"
+
+#~ msgid "Slider Background Color:"
+#~ msgstr "Colo de fondo de la presentación de destacados:"
+
+#~ msgid "Slider Text Color:"
+#~ msgstr "Color del texto de la presentación de destacados:"
+
+#~ msgid "Reset Slider Colors?"
+#~ msgstr "¿Resetear los colores del Slider?"
+
+#~ msgid "Content Color Options"
+#~ msgstr "Opciones de color del contenido"
+
+#~ msgid "Main Wrapper Background Color:"
+#~ msgstr "Color de fondo del fondo principal:"
+
+#~ msgid "Content Background Color:"
+#~ msgstr "Color de fondo del contenido:"
+
+#~ msgid "Title Color:"
+#~ msgstr "Color del título:"
+
+#~ msgid "Title Hover Color:"
+#~ msgstr "Color del título al pasar por encima:"
+
+#~ msgid "Meta Description Text Color:"
+#~ msgstr "Color del texto de la Meta descripción:"
+
+#~ msgid "Meta Description Link Color:"
+#~ msgstr "Color de los links de la Meta descripción:"
+
+#~ msgid "Reset Content Colors?"
+#~ msgstr "¿Resetear los colores del contenido?"
+
+#~ msgid "Comment Color Options"
+#~ msgstr "Opciones de color de los comentarios"
+
+#~ msgid "Comment Box Background Color:"
+#~ msgstr "Color del fondo en los comentarios:"
+
+#~ msgid "Comment Box Title Color:"
+#~ msgstr "Color del título en los comentarios:"
+
+#~ msgid "Comment Box Text Color:"
+#~ msgstr "Color del texto en los comentarios:"
+
+#~ msgid "Comment Box Link Color:"
+#~ msgstr "Color de los links en los comentarios:"
+
+#~ msgid "Reset Comment Colors?"
+#~ msgstr "¿Resetear los colores de los comentarios?"
+
+#~ msgid "Scrollup Color Options"
+#~ msgstr "Opciones de color del Scrollup"
+
+#~ msgid "Scrollup Background Color:"
+#~ msgstr "Color de fondo del Scrollup:"
+
+#~ msgid "Scrollup Text Color:"
+#~ msgstr "Color del texto del Scrollup:"
+
+#~ msgid "Sidebar Color Options"
+#~ msgstr "Opciones de color de la barra lateral"
+
+#~ msgid "Sidebar Widget Background Color:"
+#~ msgstr "Color de fondo de los widgets de la barra lateral:"
+
+#~ msgid "Sidebar Widget Title Color:"
+#~ msgstr "Color del título de los widgets:"
+
+#~ msgid "Sidebar Widget Text Color:"
+#~ msgstr "Color del texto de los widgets:"
+
+#~ msgid "Sidebar Widget Link Color:"
+#~ msgstr "Color del link en los widgets de la barra lateral:"
+
+#~ msgid "Reset Sidebar Colors?"
+#~ msgstr "¿Resetear los colores de la barra lateral?"
+
+#~ msgid "Footer Color Options"
+#~ msgstr "Opciones de color del pie de página"
+
+#~ msgid "Footer Sidebar Area Background Color:"
+#~ msgstr "Color del área de fondo de la barra lateral del pie de página:"
+
+#~ msgid "Footer Sidebar Widget Background Color:"
+#~ msgstr "Color de fondo de la barra lateral del pie de página:"
+
+#~ msgid "Footer Sidebar Widget Title Color:"
+#~ msgstr ""
+#~ "Color del título de los widgets de la barra lateral del pie de página:"
+
+#~ msgid "Footer Sidebar Widget Text Color:"
+#~ msgstr ""
+#~ "Color del texto de los widgets de la barra lateral del pie de página:"
+
+#~ msgid "Footer Sidebar Widget Link Color:"
+#~ msgstr ""
+#~ "Color del link de los widgets de la barra lateral del pie de página:"
+
+#~ msgid " Footer Background Color:"
+#~ msgstr " Color de fondo del pié de página:"
+
+#~ msgid " Footer Text Color:"
+#~ msgstr "Color del texto del pie de página:"
+
+#~ msgid " Footer Link Color:"
+#~ msgstr "Color de los links del pie de página:"
+
+#~ msgid "Reset Footer Colors?"
+#~ msgstr "¿Resetear los colores del pie de página?"
+
+#~ msgid "Menus Color Options"
+#~ msgstr "Opciones de color de los menús"
+
+#~ msgid "Primary Menu Color Options"
+#~ msgstr "Opciones de color del menú principal"
+
+#~ msgid "Menu Background Color: "
+#~ msgstr "Color de fondo del menú:"
+
+#~ msgid "Menu Text Color:"
+#~ msgstr "Menu Text Color:"
+
+#~ msgid "Menu Hover Background Color:"
+#~ msgstr "Menu Hover Background Color:"
+
+#~ msgid "Menu Hover Text Color:"
+#~ msgstr "Menu Hover Text Color:"
+
+#~ msgid "Menu Active Background Color:"
+#~ msgstr "Menu Active Background Color:"
+
+#~ msgid "Menu Active Text Color:"
+#~ msgstr "Menu Active Text Color:"
+
+#~ msgid "Sub-Menu Background Color:"
+#~ msgstr "Sub-Menu Background Color:"
+
+#~ msgid "Sub-Menu Text Color:"
+#~ msgstr "Sub-Menu Text Color:"
+
+#~ msgid "Secondary Menu Color Options"
+#~ msgstr "Opciones de color del menú secundario"
+
+#~ msgid "Footer Menu Color Options"
+#~ msgstr "Opciones de color del menú del pie de página"
+
+#~ msgid "Header Top Menu Color Options"
+#~ msgstr "Opciones de color del menú del encabezado superior"
+
+#~ msgid "Sub-Menu Border Color:"
+#~ msgstr "Color del borde del Sub-Menu:"
+
+#~ msgid "Header Right Menu Color Options"
+#~ msgstr "Opciones de color de la parte derecha del encabezado"
+
+#~ msgid "Mobile Menu Color Options"
+#~ msgstr "Opciones de color del menú para móviles"
+
+#~ msgid "Menu Hamburger Open Color:"
+#~ msgstr "Color del menú de entrada de Hamburguesa "
+
+#~ msgid "Menu Close Color"
+#~ msgstr "Color del menú de cierre"
+
+#~ msgid "Border Color:"
+#~ msgstr "Color del borde:"
+
+#~ msgid "Reset Menu Colors?"
+#~ msgstr "¿Resetear los colores del menú?"
+
+#~ msgid "Featured Post Slider"
+#~ msgstr "Presentación de artículos destacados"
+
+#~ msgid "Featured Category Slider"
+#~ msgstr "Presentación de categorías destacadas"
+
+#~ msgid "Featured Image Slider"
+#~ msgstr "Presentación de imágenes destacadas"
+
+#~ msgid "Slider Layout"
+#~ msgstr "Disposición de la presentación"
+
+#~ msgid "Full Width Slider"
+#~ msgstr "Presentación de ancho total"
+
+#~ msgid "Normal Width Slider"
+#~ msgstr "Presentación de ancho normal"
+
+#~ msgid "Featured Image Slider Options"
+#~ msgstr "Opciones de la presentación de imágenes destacadas"
+
+#~ msgid "Featured Image Slider #%s"
+#~ msgstr "Imagen predeterminada del Slider # %s"
+
+#~ msgid "Insert as Featured Image Slider #%s"
+#~ msgstr "Insertar como imagen predeterminada en el Slider # %s"
+
+#~ msgid "Change Featured Image Slider #%s"
+#~ msgstr "Cambiar la página recomendada en el Slider # %s"
+
+#~ msgid "Link URL"
+#~ msgstr "URL del link"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "Content"
+#~ msgstr "Content"
+
+#~ msgid "Featured Post Slider Options"
+#~ msgstr "Opciones de la presentación de destacados"
+
+#~ msgid "Exclude Slider post from Homepage posts?"
+#~ msgstr ""
+#~ "¿Excluir artículos de la presentación de destacados de la página "
+#~ "principal?"
+
+#~ msgid "Check to exclude"
+#~ msgstr "Marcar para excluir"
+
+#~ msgid "Featured Post Slider #%s"
+#~ msgstr "Slider predeterminado del post # %s"
+
+#~ msgid ""
+#~ "Note: Here You can put your Post IDs which displays on Homepage as slider."
+#~ msgstr ""
+#~ "Nota: Aquí puedes poner los identificadores de los artículos que mostrar "
+#~ "en la página de inicio como presentación."
+
+#~ msgid "Featured Category Slider Options"
+#~ msgstr "Opciones de la presentación de categorías destacadas"
+
+#~ msgid "Select Slider Categories"
+#~ msgstr "Elige las categorías para la presentación"
+
+#~ msgid ""
+#~ "Use this only is you want to display posts from Specific Categories in "
+#~ "Featured Slider"
+#~ msgstr ""
+#~ "Usa esto solamente si quieres mostrar una Categoría específica en el "
+#~ "Slider Destacado"
+
+#~ msgid ""
+#~ "Note: Here you can select the categories from which latest posts will "
+#~ "display on Featured Slider."
+#~ msgstr ""
+#~ "Nota: Aquí puedes elegir las categorías de las cuales se mostrarán "
+#~ "artículos en la presentación de destacados."
+
+#~ msgid "Site Verification"
+#~ msgstr "Verificación del sitio"
+
+#~ msgid "Google Site Verification ID"
+#~ msgstr "Identificador de verificación de Google Site"
+
+#~ msgid "Enter your Google ID number only"
+#~ msgstr "Inserta sólo tu número de ID de Google"
+
+#~ msgid "Yahoo Site Verification ID"
+#~ msgstr "Identificador de verificación de Yahoo"
+
+#~ msgid "Enter your Yahoo ID number only"
+#~ msgstr "Inserta sólo tu número de ID de Yahoo"
+
+#~ msgid "Bing Site Verification ID"
+#~ msgstr "Identificador de verificación de Bing"
+
+#~ msgid "Enter your Bing ID number only"
+#~ msgstr "Inserta sólo tu número de ID de Bing"
+
+#~ msgid "Header and Footer Codes"
+#~ msgstr "Códigos de encabezado y pie de página"
+
+#~ msgid "Code to display on Header"
+#~ msgstr "Código para mostrar en el encabezado"
+
+#~ msgid ""
+#~ "Note: Here you can put scripts from Google, Facebook, Twitter, Add This "
+#~ "etc. which will load on Header"
+#~ msgstr ""
+#~ "Nota: Aquí puedes poner scripts de Google, Facebook, Twitter, etc. esto "
+#~ "se cargará en el encabezado"
+
+#~ msgid "Code to display on Footer"
+#~ msgstr "Código para mostrar en el pie de página"
+
+#~ msgid ""
+#~ "Note: Here you can put scripts from Google, Facebook, Twitter, Add This "
+#~ "etc. which will load on footer"
+#~ msgstr ""
+#~ "Nota: Aquí puedes poner scripts de Google, Facebook, Twitter, etc. esto "
+#~ "se añade para que se carguen en el pie de página"
+
+#~ msgid "Theme: Catch Flames Pro"
+#~ msgstr "Tema: Catch Flames Pro"
+
+#~ msgid ""
+#~ "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime="
+#~ "\"%2$s\" pubdate>%3$s</time></a><span class=\"by-author\"> <span class="
+#~ "\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" "
+#~ "href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+#~ msgstr ""
+#~ "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime="
+#~ "\"%2$s\" pubdate>%3$s</time></a><span class=\"by-author\"> <span class="
+#~ "\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" "
+#~ "href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+
+#~ msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+#~ msgstr "%1$s en %2$s <span class=\"says\">dijo:</span>"
+
+#~ msgid "Reply <span>&darr;</span>"
+#~ msgstr "Responder <span>&darr;</span>"
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Google+ "
+#~ msgstr "Google+ "
+
+#~ msgid "Foursquare"
+#~ msgstr "Foursquare"
+
+#~ msgid "Catch Box Options"
+#~ msgstr "Opciones de Catch Box"
+
+#~ msgid "Main Sidebar"
+#~ msgstr "Barra lateral principal"
+
+#~ msgid "Catch Box Adspace Widget"
+#~ msgstr "Widget de publicidad de Catch Box"
+
+#~ msgid "Advertisement Code:"
+#~ msgstr "Advertisement Code:"
+
+#~ msgid "Add Advertisement Code or Image URL"
+#~ msgstr "Add Advertisement Code or Image URL"
+
+#~ msgid "Catch Box Social Widget"
+#~ msgstr "Widget Social de Catch Box"
+
+#~ msgid "Continue Reading &rarr;"
+#~ msgstr "Continuar Leyendo &rarr;"
+
+#~ msgid "http://catchthemes.com/support/"
+#~ msgstr "http://catchthemes.com/support/"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgid "http://catchthemes.com/support-forum/forum/catch-box-pro-premium/"
+#~ msgstr "http://catchthemes.com/support-forum/forum/catch-box-pro-premium/"
+
+#~ msgid "http://catchthemes.com/theme-instructions/catch-box-pro/"
+#~ msgstr "http://catchthemes.com/theme-instructions/catch-box-pro/"
+
+#~ msgid "Theme Instructions"
+#~ msgstr "Instrucciones del tema"
+
+#~ msgid "http://wordpress.org/support/view/theme-reviews/catch-box/"
+#~ msgstr "http://wordpress.org/support/view/theme-reviews/catch-box/"
+
+#~ msgid "Enable Secondary & Footer Menu in Mobile Devices?"
+#~ msgstr "Enable Secondary & Footer Menu in Mobile Devices?"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "Favicon Options"
+#~ msgstr "Opciones del 'favicon'"
+
+#~ msgid "Change Fav Icon"
+#~ msgstr "Cambiar 'favicon'"
+
+#~ msgid "Preview: "
+#~ msgstr "Vista Previa: "
+
+#~ msgid "Need to Customize Header Image?"
+#~ msgstr "¿Necesitas personalizar la imagen de cabecera?"
+
+#~ msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+#~ msgstr "<a class=\"button\" href=\"%s\">Click aquí</a>"
+
+#~ msgid "Move Site Title and Tagline"
+#~ msgstr "Mover título y descripción del sitio"
+
+#~ msgid "Check to move above the Header/Logo Image"
+#~ msgstr "Prueba a mover por encima de la imagen de cabecera/logo"
+
+#~ msgid "Need to Customize Header Right Sidebar?"
+#~ msgstr "Need to Customize Header Right Sidebar?"
+
+#~ msgid "Header Right Margin"
+#~ msgstr "Margen derecho de la cabecera"
+
+#~ msgid "Header Left Margin"
+#~ msgstr "Margen izquierdo de la cabecera"
+
+#~ msgid "Page/Post Title Font Size"
+#~ msgstr "Page/Post Title Font Size"
+
+#~ msgid "Default Layout"
+#~ msgstr "Diseño predeterminado"
+
+#~ msgid "Reset Default Layout?"
+#~ msgstr "¿Restablecer diseño predeterminado?"
+
+#~ msgid "Homepage/Blog Content Options"
+#~ msgstr "Homepage/Blog Content Options"
+
+#~ msgid "Homepage/Blog Content Layout"
+#~ msgstr "Homepage/Blog Content Layout"
+
+#~ msgid "Commenting"
+#~ msgstr "Commenting"
+
+#~ msgid "Disabled for Pages"
+#~ msgstr "Disabled for Pages"
+
+#~ msgid "Disabled Completely"
+#~ msgstr "Disabled Completely"
 
 #~ msgid ""
 #~ "You can add custom <acronym title=\"Hypertext Markup Language\">HTML</"
@@ -1775,373 +2200,279 @@ msgstr "Arquivos da Tag: %s"
 #~ "[wp-link] for current year, your site link, wordpress site link "
 #~ "respectively."
 #~ msgstr ""
-#~ "Voce pode adicionar <acronym title=\"Hypertext Markup Language\">HTML</"
-#~ "acronym> customizados e/ou shortcodes, que serão inseridos "
-#~ "automaticamente em seu tema.<br />Alguns exemplos de shortcodes (códigos "
-#~ "curtos): [footer-image], [the-year], [site-link], [wp-link], os códigos "
-#~ "correspondem  respectivamente:  para as imagens de rodapé, o ano atual, o "
-#~ "link do seu site, o link do site do WordPress."
+#~ "Puedes utilizar <acronym title=\"Hypertext Markup Language\">HTML</"
+#~ "acronym> y/o shortcodes, que serán automáticamente insertados en tu tema."
+#~ "<br />Algunos shorcodes: [the-year], [site-link], [wp-link] para el año "
+#~ "actual, el enlace a tu página y el enlace a wordpress respectivamente"
 
-#~ msgid "Reset Footer?"
-#~ msgstr "Você quer voltar às configurações padrão (resetar) para o rodapé?"
+#~ msgid "Blue"
+#~ msgstr "Azul"
 
-#~ msgid "Update Notifier"
-#~ msgstr "Notificador de atualizações"
+#~ msgid "Green"
+#~ msgstr "Verde"
 
-#~ msgid "Disable Update Notifier?"
-#~ msgstr "Você quer desativar o notificador de atualizações?"
+#~ msgid "Red"
+#~ msgstr "Red"
 
-#~ msgid "Site Color Options"
-#~ msgstr "Opções de cores para o Website/Blog"
+#~ msgid "Brown"
+#~ msgstr "Brown"
 
-#~ msgid "Site Title Color:"
-#~ msgstr "A cor do título do Website:"
+#~ msgid "Orange"
+#~ msgstr "Orange"
 
-#~ msgid "Click Here to change"
-#~ msgstr "Clique aqui para alterar"
+#~ msgid "Custom Colors"
+#~ msgstr "Custom Colors"
 
-#~ msgid "Site Title Hover Color:"
+#~ msgid "Main Background Color:"
+#~ msgstr "Color del fondo;"
+
+#~ msgid "Click Here to change Main Background Image/Color"
+#~ msgstr "Haz clic aquí para cambiar la imagen/color del fondo"
+
+#~ msgid "Header Background:"
+#~ msgstr "Fondo de la cabecera:"
+
+#~ msgid "Article Background Color:"
+#~ msgstr "Color de fondo del artículo:"
+
+#~ msgid " Footer Sidebar Background Color:"
+#~ msgstr " Colo de fondo de la barra lateral del píe de página:"
+
+#~ msgid "Widget Background Color:"
+#~ msgstr "Color de fondo de los widgets;"
+
+#~ msgid "Site Title & Description Color:"
+#~ msgstr "Color del título y descripción:"
+
+#~ msgid "Click Here to change Site Title and Tagline Text Color"
+#~ msgstr "Haz clic aquí para cambiar el color del título y la descripción"
+
+#~ msgid "Meta Description Color:"
+#~ msgstr "Color del la descripción:"
+
+#~ msgid "Menu Background Color:"
+#~ msgstr "Menu Background Color:"
+
+#~ msgid "Scroll Up Background Color:"
+#~ msgstr "Scroll Up Background Color:"
+
+#~ msgid "Scroll Up Text Color:"
+#~ msgstr "Scroll Up Text Color:"
+
+#~ msgid "Reset Color?"
+#~ msgstr "¿Reajustar colores?"
+
+#~ msgid "Image Slider Tutorial"
+#~ msgstr "Image Slider Tutorial"
+
+#~ msgid ""
+#~ "http://catchthemes.com/blog/videos-blog/video-series-adding-featured-"
+#~ "image-slider/"
 #~ msgstr ""
-#~ "Personalizar a cor do título no efeito passe o mouse em cima (hover) no "
-#~ "Website:"
+#~ "http://catchthemes.com/blog/videos-blog/video-series-adding-featured-"
+#~ "image-slider/"
 
-#~ msgid "Site Tagline Color:"
-#~ msgstr "A cor da linha de Tag do Website:"
+#~ msgid "Click Here to Read Image Slider Tutorial"
+#~ msgstr "Click Here to Read Image Slider Tutorial"
 
-#~ msgid "Site Background Color:"
-#~ msgstr "Personalizar a cor do fundo (Background) do Website:"
-
-#~ msgid "Text Color:"
-#~ msgstr "Personalizar a cor do texto:"
-
-#~ msgid "Link Color:"
-#~ msgstr "Personalizar a cor do Link:"
-
-#~ msgid "Reset Site Colors?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para as cores que usou "
-#~ "no Website?"
-
-#~ msgid "Header Color Options"
-#~ msgstr "Opções de cores do cabeçalho"
-
-#~ msgid "Header Image Background Color:"
-#~ msgstr "Personalizar a cor do fundo (Background) na imagem do cabeçalho:"
-
-#~ msgid "Reset Header Colors?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para as cores que usou "
-#~ "no cabeçalho?"
-
-#~ msgid "Slider Color Options"
-#~ msgstr "Opções de cores no Slider Show"
-
-#~ msgid "Slider Background Color:"
-#~ msgstr "Cor do fundo no Slider Show:"
-
-#~ msgid "Slider Text Color:"
-#~ msgstr "Cor do texto no Slider Show:"
-
-#~ msgid "Reset Slider Colors?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para as cores que usou "
-#~ "no Slider Show?"
-
-#~ msgid "Content Color Options"
-#~ msgstr "Opções de cores do conteúdo"
-
-#~ msgid "Main Wrapper Background Color:"
-#~ msgstr "Cor principal que envolve o fundo:"
-
-#~ msgid "Content Background Color:"
-#~ msgstr "Personalizar a cor do fundo (Background) do conteúdo:"
-
-#~ msgid "Title Color:"
-#~ msgstr "Personalizar a cor do título:"
-
-#~ msgid "Title Hover Color:"
-#~ msgstr ""
-#~ "Personalizar a cor do título no efeito passe o mouse em cima (hover):"
-
-#~ msgid "Meta Description Text Color:"
-#~ msgstr "A cor do texto da meta descrição:"
-
-#~ msgid "Meta Description Link Color:"
-#~ msgstr "A cor do link da meta descrição:"
-
-#~ msgid "Reset Content Colors?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para as cores que usou "
-#~ "no conteúdo?"
-
-#~ msgid "Comment Color Options"
-#~ msgstr "Opções de cores da caixa de comentário:"
-
-#~ msgid "Comment Box Background Color:"
-#~ msgstr "A cor do fundo (Background) da caixa de comentário:"
-
-#~ msgid "Comment Box Title Color:"
-#~ msgstr "A cor do título da caixa de comentário:"
-
-#~ msgid "Comment Box Text Color:"
-#~ msgstr "A cor do texto da caixa de comentário:"
-
-#~ msgid "Comment Box Link Color:"
-#~ msgstr "A cor do link da caixa de comentário:"
-
-#~ msgid "Reset Comment Colors?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para as cores que usou "
-#~ "nos comentários?"
-
-#~ msgid "Scrollup Color Options"
-#~ msgstr "Opções de cores do efeito rolar a página para cima:"
-
-#~ msgid "Scrollup Background Color:"
-#~ msgstr "Cor do fundo no efeito rolar a página para cima:"
-
-#~ msgid "Scrollup Text Color:"
-#~ msgstr "Cor do texto no efeito rolar a página para cima:"
-
-#~ msgid "Sidebar Color Options"
-#~ msgstr "Opções de cores na barra lateral"
-
-#~ msgid "Sidebar Widget Background Color:"
-#~ msgstr "Personalizar a cor do fundo na barra lateral:"
-
-#~ msgid "Sidebar Widget Title Color:"
-#~ msgstr "Cor do título usado no Widget da barra lateral:"
-
-#~ msgid "Sidebar Widget Text Color:"
-#~ msgstr "Cor do texto usado no Widget da barra lateral:"
-
-#~ msgid "Sidebar Widget Link Color:"
-#~ msgstr "Cor do link usado no Widget da barra lateral:"
-
-#~ msgid "Reset Sidebar Colors?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para as cores que usou "
-#~ "na barra lateral?"
-
-#~ msgid "Footer Color Options"
-#~ msgstr "Opções de cores do rodapé"
-
-#~ msgid "Footer Sidebar Area Background Color:"
-#~ msgstr "Cor da área utilizada pelo fundo (Background) no rodapé:"
-
-#~ msgid "Footer Sidebar Widget Background Color:"
-#~ msgstr ""
-#~ "Cor do fundo (Background) usado no Widget da barra lateral no rodapé:"
-
-#~ msgid "Footer Sidebar Widget Title Color:"
-#~ msgstr "Cor do título usado no Widget da barra lateral no rodapé:"
-
-#~ msgid "Footer Sidebar Widget Text Color:"
-#~ msgstr "Cor do texto usado no Widget da barra lateral no rodapé:"
-
-#~ msgid "Footer Sidebar Widget Link Color:"
-#~ msgstr "Cor do link usado no Widget da barra lateral no rodapé:"
-
-#~ msgid " Footer Background Color:"
-#~ msgstr "Personalizar a cor do fundo do rodapé:"
-
-#~ msgid " Footer Text Color:"
-#~ msgstr "Cor do texto usado no rodapé:"
-
-#~ msgid " Footer Link Color:"
-#~ msgstr "Cor do link usado no rodapé:"
-
-#~ msgid "Reset Footer Colors?"
-#~ msgstr ""
-#~ "Você quer voltar às configurações padrão (resetar) para as cores que usou "
-#~ "no rodapé? "
-
-#~ msgid "Menus Color Options"
-#~ msgstr "Opções das cores dos menus"
-
-#~ msgid "Primary Menu Color Options"
-#~ msgstr "Opções de cores do menu do principal"
-
-#~ msgid "Menu Background Color: "
-#~ msgstr "Cor de fundo (Background) do menu:"
-
-#~ msgid "Menu Text Color:"
-#~ msgstr "Cor do texto do menu:"
-
-#~ msgid "Menu Hover Background Color:"
-#~ msgstr ""
-#~ "Cor de fundo (Background) do efeito passe o mouse em cima (Hover) do menu:"
-
-#~ msgid "Menu Hover Text Color:"
-#~ msgstr "Cor do texto do efeito passe o mouse em cima (Hover) do menu:"
-
-#~ msgid "Menu Active Background Color:"
-#~ msgstr ""
-#~ "Efeito passe o mouse em cima do menu (Hover) e ativa a cor do fundo "
-#~ "(background):"
-
-#~ msgid "Menu Active Text Color:"
-#~ msgstr ""
-#~ "Efeito passe o mouse em cima do menu (Hover) e ativa a cor do texto:"
-
-#~ msgid "Sub-Menu Background Color:"
-#~ msgstr "Cor de fundo (Background) do sub-menu:"
-
-#~ msgid "Sub-Menu Text Color:"
-#~ msgstr "Cor do texto do sub-menu:"
-
-#~ msgid "Secondary Menu Color Options"
-#~ msgstr "Opções de cores do menu do cabeçalho secundário"
-
-#~ msgid "Footer Menu Color Options"
-#~ msgstr "Opções de cores do menu do rodapé"
-
-#~ msgid "Header Top Menu Color Options"
-#~ msgstr "Opções de cores do menu do cabeçalho à direita"
-
-#~ msgid "Sub-Menu Border Color:"
-#~ msgstr "Cor da margem no topo do sub-menu:"
-
-#~ msgid "Header Right Menu Color Options"
-#~ msgstr "Opções de cores do menu do cabeçalho à direita"
-
-#~ msgid "Mobile Menu Color Options"
-#~ msgstr "Opções de cores do menu quando visualizado em dispositivos móveis"
-
-#~ msgid "Menu Hamburger Open Color:"
-#~ msgstr "Cor que abre o menu de hamburger:"
-
-#~ msgid "Menu Close Color"
-#~ msgstr "Cor que encerra o menu:"
-
-#~ msgid "Border Color:"
-#~ msgstr "Botão que promove a margem colorida:"
-
-#~ msgid "Reset Menu Colors?"
-#~ msgstr "Você quer redefinir para o padrão (resetar) a cor que usou no menu?"
-
-#~ msgid "Featured Post Slider"
-#~ msgstr "Opções do Slider Show da postagem em destaque"
-
-#~ msgid "Featured Category Slider"
-#~ msgstr "Opções do Slider Show da categoria em destaque"
-
-#~ msgid "Featured Image Slider"
-#~ msgstr "Opções do Slider Show da imagem em destaque"
-
-#~ msgid "Slider Layout"
-#~ msgstr "Escolha o Layout do Slider Show"
-
-#~ msgid "Full Width Slider"
-#~ msgstr "Largura total do Slider "
-
-#~ msgid "Normal Width Slider"
-#~ msgstr "Largura normal do Slider "
-
-#~ msgid "Featured Image Slider Options"
-#~ msgstr "Opções do Slider Show da imagem em destaque"
-
-#~ msgid "Featured Image Slider #%s"
-#~ msgstr "Imagem em destaque no Slider Show #%s"
+#~ msgid "Featued Slider"
+#~ msgstr "Featued Slider"
 
 #~ msgid "Upload"
-#~ msgstr "fazer upload"
+#~ msgstr "Subir"
 
-#~ msgid "Link URL"
-#~ msgstr "URL do Link "
+#~ msgid "Target: Open Link in New Window"
+#~ msgstr "Destino. ¿Abrir enlace en una ventana nueva"
 
-#~ msgid "Title"
-#~ msgstr "Título"
-
-#~ msgid "Content"
-#~ msgstr "Conteúdo:"
-
-#~ msgid "Featured Post Slider Options"
-#~ msgstr "Opções do Slider Show da postagem em destaque"
-
-#~ msgid "Exclude Slider post from Homepage posts?"
-#~ msgstr ""
-#~ "Você quer excluir da página inicial das postagens (Homepage), a "
-#~ "apresentação em Slide Show?"
-
-#~ msgid "Check to exclude"
-#~ msgstr "Marque para excluir"
-
-#~ msgid "Featured Post Slider #%s"
-#~ msgstr "Postagens em destaque no Slider Show #%s"
+#~ msgid "Post Slider Tutorial"
+#~ msgstr "Post Slider Tutorial"
 
 #~ msgid ""
-#~ "Note: Here You can put your Post IDs which displays on Homepage as slider."
+#~ "http://catchthemes.com/blog/videos-blog/video-series-adding-featured-post-"
+#~ "slider/"
 #~ msgstr ""
-#~ "<strong>Nota:</strong> Aqui você pode colocar as identificações únicas "
-#~ "(<b>IDs</b>) de suas postagens que serão exibidas na página inicial como "
-#~ "Slider."
+#~ "http://catchthemes.com/blog/videos-blog/video-series-adding-featured-post-"
+#~ "slider/"
 
-#~ msgid "Featured Category Slider Options"
-#~ msgstr "Opções do Slider Show da categoria em destaque"
+#~ msgid "Click Here to Read Post Slider Tutorial"
+#~ msgstr "Click Here to Read Post Slider Tutorial"
 
-#~ msgid "Select Slider Categories"
-#~ msgstr "Selecionar as categorias do Slider"
+#~ msgid "Featured Slider Post #"
+#~ msgstr "Artículo destacado #"
+
+#~ msgid "Featured Slider Page #"
+#~ msgstr "Página destacada #"
 
 #~ msgid ""
-#~ "Use this only is you want to display posts from Specific Categories in "
+#~ "Note: Here You can put your Page IDs which displays on Homepage as slider."
+#~ msgstr ""
+#~ "Nota: Aquí puedes poner los identificadores de páginas que mostrar en la "
+#~ "página de inicio como presentación."
+
+#~ msgid ""
+#~ "Use this only if you want to display posts from Specific Categories in "
 #~ "Featured Slider"
 #~ msgstr ""
-#~ "Use esta, somente se você desejar exibir as postagens específicas da "
-#~ "categoria em slider em destaque"
+#~ "Usa esto sólo si quieres mostrar mensajes de categorías específicas en la "
+#~ "presentación de destacados"
+
+#~ msgid "Disable Social Links in Footer?"
+#~ msgstr "¿Desactivar enlaces sociales en el pie de página?"
 
 #~ msgid ""
-#~ "Note: Here you can select the categories from which latest posts will "
-#~ "display on Featured Slider."
+#~ "Note: Here you can put scripts from Google, Facebook etc. which will load "
+#~ "on Header"
 #~ msgstr ""
-#~ "<strong>Nota:</strong> Aqui você pode selecionar as categorias, a partir "
-#~ "das quais, todos as postagens nelas contidas, serão exibidas em slider em "
-#~ "destaque."
-
-#~ msgid "Site Verification"
-#~ msgstr "Verificacao do Site"
-
-#~ msgid "Google Site Verification ID"
-#~ msgstr "ID do <strong>Google</strong> para a Verificação do seu Website"
-
-#~ msgid "Enter your Google ID number only"
-#~ msgstr "Digite somente o número da ID (identificação única) do Google"
-
-#~ msgid "Yahoo Site Verification ID"
-#~ msgstr "ID do <strong>Yahoo</strong> para a Verificação do seu Website"
-
-#~ msgid "Enter your Yahoo ID number only"
-#~ msgstr "Digite somente o seu número de ID do Yahoo"
-
-#~ msgid "Bing Site Verification ID"
-#~ msgstr "ID do <strong>Bing</strong> para a Verificação do seu Website"
-
-#~ msgid "Enter your Bing ID number only"
-#~ msgstr "Digite somente o número da ID (identificação única) do Bing"
-
-#~ msgid "Header and Footer Codes"
-#~ msgstr "Os códigos (scripts) que vão inseridos no Cabeçalho e Rodapé"
-
-#~ msgid "Code to display on Header"
-#~ msgstr "Coloque aqui o código para ser inserido no Cabeçalho"
+#~ "Nota: Aquí puedes poner los scripts de Google, Facebook, etc, que se "
+#~ "cargarán en la cabecera"
 
 #~ msgid ""
-#~ "Note: Here you can put scripts from Google, Facebook, Twitter, Add This "
-#~ "etc. which will load on Header"
+#~ "Note: Here you can put scripts from Google, Facebook, Add This etc. which "
+#~ "will load on footer"
 #~ msgstr ""
-#~ "<strong>Nota:</strong> Aqui você pode colocar os scripts do Google, "
-#~ "Facebook, Twitter, Add This etc... que serão carregados no Cabeçalho "
-#~ "(Header)"
+#~ "Nota: Aquí puedes poner scripts de Google, Facebook, Add This etc, que se "
+#~ "cargarán en el pie de página"
 
-#~ msgid "Code to display on Footer"
-#~ msgstr "Coloque aqui o código para ser inserido no Rodapé"
+#~ msgid "Catch Box Pro"
+#~ msgstr "Catch Box Pro"
+
+#~ msgid "Default Layout Set in <a href=\""
+#~ msgstr "Disposición predeterminada establecida en <a href=\""
+
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Enable Secondary & Footer Menu in Mobile Deveices?"
+#~ msgstr "Enable Secondary & Footer Menu in Mobile Deveices?"
+
+#~ msgid "Homepage Content Options"
+#~ msgstr "Opciones de contenido de la página principal"
+
+#~ msgid "Homepage Content Layout"
+#~ msgstr "Disposición del contenido de la página principal"
+
+#~ msgid "http://facebook.com/catchthemes"
+#~ msgstr "http://facebook.com/catchthemes"
+
+#~ msgid "https://twitter.com/catchthemes"
+#~ msgstr "https://twitter.com/catchthemes"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "%s Theme Updates"
+#~ msgstr "%s Actualizaciones del tema"
+
+#~ msgid "There is a new version of the %s theme available."
+#~ msgstr "Hay una nueva versión del tema %s disponible."
+
+#~ msgid "You have version %1$s installed. Update to version %2$s"
+#~ msgstr "Tienes instalada la versión %1$s. Actualizar a la versión %2$s"
+
+#~ msgid "Update Instruction"
+#~ msgstr "Update Instruction"
+
+#~ msgid "Please note:"
+#~ msgstr "Por favor, ten en cuenta:"
+
+#~ msgid "make a "
+#~ msgstr "hacer una "
+
+#~ msgid "backup"
+#~ msgstr "copia de seguridad"
+
+#~ msgid "of the Theme inside your WordPress installation folder"
+#~ msgstr "del tema dentro de tu carpeta de instalación de WordPress"
+
+#~ msgid "/wp-content/themes/%s"
+#~ msgstr "/wp-content/themes/%s"
+
+#~ msgid "To update the Theme, login to your account at"
+#~ msgstr "Para actualizar el tema, accede a tu cuenta en"
+
+#~ msgid "http://catchthemes.com/login/"
+#~ msgstr "http://catchthemes.com/login/"
+
+#~ msgid "download"
+#~ msgstr "descargar"
+
+#~ msgid "the zip copy of %s Theme from your account."
+#~ msgstr "la copia en zip del tema %s desde tu cuenta."
+
+#~ msgid "Manual Update using FTP:"
+#~ msgstr "Actualización manual mediante FTP:"
+
+#~ msgid "Now unzip the theme file %1$s.%2$s.zip"
+#~ msgstr "Ahora, descomprime el archivo del tema %1$s.%2$s.zip"
 
 #~ msgid ""
-#~ "Note: Here you can put scripts from Google, Facebook, Twitter, Add This "
-#~ "etc. which will load on footer"
+#~ "and use your FTP client to access your host web server. Go to /wp-content/"
+#~ "themes/ and upload the extracted folder %s "
 #~ msgstr ""
-#~ "<strong>Nota:</strong> Aqui você pode colocar os scripts do Google, "
-#~ "Facebook, Twitter, Add This etc... que serão carregados no Rodapé (Footer)"
+#~ "y utiliza tu cliente de FTP para acceder a tu servidor web. Ve a /wp-"
+#~ "content/themes/ y sube la carpeta %s extraída "
 
-#~ msgid "Header Content Background Color:"
-#~ msgstr "Personalizar a cor do fundo (Background) no conteúdo do cabeçalho:"
+#~ msgid "Update using the WordPress Administration Panel"
+#~ msgstr "Actualización mediante el Panel de Administración de WordPress"
+
+#~ msgid ""
+#~ "If you want to update through your WordPress Dashboard without using FTP, "
+#~ "then you have to activate any other default theme and then delete the "
+#~ "older version of %s Theme. After that you can upload the current version "
+#~ "following the new theme installation process."
+#~ msgstr ""
+#~ "Si quieres actualizar a través de tu panel de WordPress sin usar FTP, "
+#~ "entonces tienes que activar cualquier otro tema por defecto y eliminar la "
+#~ "versión anterior del tema %s. Después de esto, puedes subir la versión "
+#~ "actual siguiendo el proceso de instalación del nuevo tema."
+
+#~ msgid "Changelog"
+#~ msgstr "Registro de cambios"
+
+#~ msgid "%s in Facebook"
+#~ msgstr "%s en Facebook"
+
+#~ msgid "%s in Twitter"
+#~ msgstr "%s en Twitter"
+
+#~ msgid "%s in Google+"
+#~ msgstr "%s en Google+"
+
+#~ msgid "%s in Linkedin"
+#~ msgstr "%s en Linkedin"
+
+#~ msgid "%s in Pinterest"
+#~ msgstr "%s en Pinterest"
+
+#~ msgid "%s in Vimeo"
+#~ msgstr "%s en Vimeo"
+
+#~ msgid "%s in Slideshare"
+#~ msgstr "%s en Slideshare"
+
+#~ msgid "%s in Flickr"
+#~ msgstr "%s en Flickr"
+
+#~ msgid "%s in Tumblr"
+#~ msgstr "%s en Tumblr"
+
+#~ msgid "%s in deviantART"
+#~ msgstr "%s en deviantART"
+
+#~ msgid "%s in Dribbble"
+#~ msgstr "%s en Dribbble"
+
+#~ msgid "%s in WordPress"
+#~ msgstr "%s en WordPress"
+
+#~ msgid "%s in RSS"
+#~ msgstr "%s en RSS"
+
+#~ msgid "%s in Instagram"
+#~ msgstr "%s en Instagram"
+
+#~ msgid "%s in Skype"
+#~ msgstr "%s en Skype"
+
+#~ msgid "%s in Soundcloud"
+#~ msgstr "%s en Soundcloud"
