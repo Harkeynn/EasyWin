@@ -15,13 +15,8 @@ get_header(); ?>
 	
 
 	<h1><?php the_title(); ?></h1>
+		Publié par <?php the_author(); ?> le <?php the_date("l d F Y à H:i"); ?><br />
 		<p id="text"><?php the_content(); ?></p>
-		<?php the_author(); ?><br/>
-
-
-		
-		<strong>Date:</strong> 
-		<?php the_date("l d F Y H:i"); ?><br />
 
 
 
