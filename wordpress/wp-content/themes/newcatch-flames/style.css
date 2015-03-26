@@ -6,3 +6,15 @@ Template: catch-flames
 */
 
 @import url("../catch-flames/style.css");
+
+#content
+{
+	background-color: white;
+	padding: 10px;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 30px;
+}
