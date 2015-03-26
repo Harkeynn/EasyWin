@@ -21,11 +21,7 @@ get_header(); ?>
 
 		
 		<strong>Date:</strong> 
-		<?php
-		
-			the_date("l d F Y H:i");
-
-		?><br />
+		<?php the_date("l d F Y H:i"); ?><br />
 
 
 
