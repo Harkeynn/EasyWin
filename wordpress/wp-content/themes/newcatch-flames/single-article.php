@@ -1,3 +1,6 @@
+
+
+
 <?php
 /**
  * Sample template for displaying single article posts.
@@ -12,14 +15,19 @@ get_header(); ?>
 	
 
 	<h1><?php the_title(); ?></h1>
-		<?php the_content(); ?>
-		<?php the_author(); ?>
+		<p id="text"><?php the_content(); ?></p>
+		<?php the_author(); ?><br/>
 
-		<h2>Custom Fields</h2>	
 
-		<?php 
-			date_default_timezone_set('France/Paris'); 
-		?>
+		
+		<strong>Date:</strong> 
+		<?php
+		
+			the_date("l d F Y H:i");
+
+		?><br />
+
+
 
 
 <?php endwhile; // end of the loop. ?>
