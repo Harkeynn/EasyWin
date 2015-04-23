@@ -7,6 +7,7 @@ $result = add_role(
     array(
         'read'         => true,  // true allows this capability
         'edit_posts'   => true,
+        'publish_posts' => false,
         'delete_posts' => false,
         'delete_published_posts' => false,
         'edit_published_posts' => true,
